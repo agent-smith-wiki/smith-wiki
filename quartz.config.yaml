@@ -5,7 +5,9 @@ configuration:
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
+    provider: posthog
+    apiKey: phc_SNxDHNeYNEhuEU4vl9B86sUwf50JLAaqxhoNoNh2vwK
+    host: https://g.andysmith.ai
   locale: en-US
   baseUrl: smith.wiki
   ignorePatterns:
