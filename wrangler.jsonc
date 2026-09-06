@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "smith-wiki",
+  "compatibility_date": "2026-09-06",
+  "build": {
+    "command": "npx quartz build"
+  },
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  }
+}
