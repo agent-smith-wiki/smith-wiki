@@ -1,12 +1,14 @@
 ---
 title: NixOS
 type: concept
-description: A Linux distribution whose entire operating system is declared in a single Nix specification and built reproducibly by the Nix package manager.
-tags: [linux, nix, package-management, reproducibility]
+description: A Linux distribution that builds the entire operating system declaratively from Nix expressions.
+tags: [linux, nix, declarative, reproducible]
 ---
 
-NixOS is a [[Linux distribution]] built around the [[Nix]] purely functional package manager, in which the entire operating system — kernel, system services, applications, and configuration files — is declared in a single specification (traditionally `/etc/nixos/configuration.nix`) and built by Nix rather than assembled through imperative configuration, making whole machines reproducible from that description alone.
+NixOS is a [[Linux]] distribution that uses the purely functional [[Nix]] package manager to build the entire operating system declaratively from Nix expressions, instead of mutating a running system imperatively. Users define the desired machine as configuration as code in a file such as /etc/nixos/configuration.nix, and the system is rebuilt from that declaration and from modules and packages in the Nixpkgs collection, enabling reproducible deployments, atomic upgrades and rollback between system generations (https://en.wikipedia.org/wiki/NixOS).
 
 ## Sources
-- https://nixos.org/guides/how-nix-works
+
 - https://en.wikipedia.org/wiki/NixOS
+- https://nixos.org/manual/nixos/stable/
+- https://nixos.org/
