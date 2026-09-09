@@ -10,4 +10,4 @@ A **reproducible environment** is a computing environment whose complete specifi
 ## Sources
 
 - [[Reproducible builds (reproducible-builds.org)]]
-- https://aige.eu/posts/reproducible-development-environments-with-nix-flakes
+- [[Reproducible Development Environments with Nix Flakes (aige.eu)]]

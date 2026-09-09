@@ -9,6 +9,6 @@ tags: [nix, reproducibility, package-management]
 
 ## Sources
 
-- https://aige.eu/posts/reproducible-development-environments-with-nix-flakes
+- [[Reproducible Development Environments with Nix Flakes (aige.eu)]]
 - https://nix.dev/concepts/flakes.html
 - https://wiki.nixos.org/wiki/Flakes
