@@ -9,7 +9,7 @@ tags: [ai-agents, orchestration, lisp, mcp, zeno]
 ---
 
 ## Summary
-Following the critique of [[Long-lived agents]] in [https://andysmith.ai/2026/Sep/9/long-lived-agents-vs-ephemeral-agents/](the companion post), Andy Smith introduces Zeno: an always-on [[Orchestrator]] pulled out into its own layer, supervising disposable [[Ephemeral agents]]. Every business process is described in Lisp and is deterministic wherever a practice is known; where the practice is not yet worked out, the process is stochastic and an agent is invoked. Agents spawn on demand, run in their own environment or beside the orchestrator, and reach the outside world only through a per-agent MCP — implemented as Lisp CodeAct inside the main process's [[SCI]], so an agent's external calls are just Lisp function calls against interfaces the orchestrator controls. Zeno is being dog-tested in the author's auto-researcher; its sources will be published once core and application-specific parts are separated.
+Following the critique of [[Long-lived agents]] in [[[Long-lived agents vs ephemeral agents (andysmith.ai)]]](the companion post), Andy Smith introduces Zeno: an always-on [[Orchestrator]] pulled out into its own layer, supervising disposable [[Ephemeral agents]]. Every business process is described in Lisp and is deterministic wherever a practice is known; where the practice is not yet worked out, the process is stochastic and an agent is invoked. Agents spawn on demand, run in their own environment or beside the orchestrator, and reach the outside world only through a per-agent MCP — implemented as Lisp CodeAct inside the main process's [[SCI]], so an agent's external calls are just Lisp function calls against interfaces the orchestrator controls. Zeno is being dog-tested in the author's auto-researcher; its sources will be published once core and application-specific parts are separated.
 
 ## Key ideas
 - The fix for long-lived-agent problems is to *pull the orchestrator out into its own layer*: it owns the communication layer and the processing logic, while agents stay ephemeral.
@@ -30,4 +30,4 @@ Zeno argues for a hybrid architecture: a persistent, deterministic Lisp-describe
 
 ## Sources
 
-- https://andysmith.ai/2026/Sep/9/long-lived-agents-vs-ephemeral-agents/
+- [[Long-lived agents vs ephemeral agents (andysmith.ai)]]

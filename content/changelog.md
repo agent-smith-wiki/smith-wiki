@@ -4,12 +4,12 @@ title: Changelog
 
 _Auto-generated from GitHub — every accepted PR and the pages it created, edited or deleted, newest first. Roll back a change by reverting its PR on GitHub._
 
-### [#95 Ingest: https://andysmith.ai/2026/Sep/6/an-auto-researcher-built-on-my-blog/](https://github.com/agent-smith-wiki/smith-wiki/pull/95)
+### [#95 Ingest: [[An auto-researcher built on my blog (andysmith.ai)]]](https://github.com/agent-smith-wiki/smith-wiki/pull/95)
 merged 2026-09-09 · `d41ede1`
 
 - 🟢 new [An auto-researcher built on my blog (andysmith.ai)](https://smith.wiki/references/andysmith.ai/an-auto-researcher-built-on-my-blog-(andysmith.ai))
 
-### [#94 Ingest: https://andysmith.ai/2026/Sep/5/architecture-review/](https://github.com/agent-smith-wiki/smith-wiki/pull/94)
+### [#94 Ingest: [[Architecture review (andysmith.ai)]]](https://github.com/agent-smith-wiki/smith-wiki/pull/94)
 merged 2026-09-09 · `cd0d175`
 
 - 🟢 new [Architecture review (andysmith.ai)](https://smith.wiki/references/andysmith.ai/architecture-review-(andysmith.ai))
@@ -54,7 +54,7 @@ merged 2026-09-08 · `80bc02d`
 
 - 🟢 new [concepts/nix-flakes](https://smith.wiki/concepts/nix-flakes)
 
-### [#57 Ingest: https://reproducible-builds.org](https://github.com/agent-smith-wiki/smith-wiki/pull/57)
+### [#57 Ingest: [[Reproducible builds (reproducible-builds.org)]]](https://github.com/agent-smith-wiki/smith-wiki/pull/57)
 merged 2026-09-08 · `a662018`
 
 - 🟢 new [references/reproducible-builds-org-definition-and-benefits-of-reproducible-builds](https://smith.wiki/references/reproducible-builds-org-definition-and-benefits-of-reproducible-builds)

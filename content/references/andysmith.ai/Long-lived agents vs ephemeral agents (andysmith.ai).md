@@ -34,4 +34,4 @@ Long-lived agents buy persistence and self-driven, event-triggered operation at 
 
 ## Sources
 
-- https://andysmith.ai/2026/Sep/6/ephemeral-agents/
+- [[Ephemeral agents (andysmith.ai)]]
