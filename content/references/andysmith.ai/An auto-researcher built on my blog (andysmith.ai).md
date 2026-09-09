@@ -28,4 +28,4 @@ The post argues that the only reliable way to run an auto-researcher that publis
 ## Sources
 
 - https://andysmith.ai/2025/Oct/13/everything-should-be-written/
-- https://andysmith.ai/2026/Aug/19/an-experience-lake-and-keeping-personal-data-safe/
+- [[An experience lake, and keeping personal data safe (andysmith.ai)]]

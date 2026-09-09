@@ -40,4 +40,4 @@ Andy Smith argues that the conversation logs kept with agents are 'the key artif
 
 - https://andysmith.ai/2026/Aug/31/discourse-as-a-platform-for-an-ai-native-company/
 - https://andysmith.ai/2026/Sep/1/rethinking-the-vision-for-reflection-castle/
-- https://andysmith.ai/2026/Aug/19/an-experience-lake-and-keeping-personal-data-safe/
+- [[An experience lake, and keeping personal data safe (andysmith.ai)]]
