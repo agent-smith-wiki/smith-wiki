@@ -31,7 +31,7 @@ https://github.com/opencontainers/image-spec/blob/main/manifest.md
 https://github.com/opencontainers/image-spec/blob/main/image-index.md
 https://github.com/opencontainers/distribution-spec/blob/main/spec.md
 https://docs.docker.com/registry/spec/manifest-v2-2/#manifest-list
-https://wikipedia.org/wiki/Content-addressable_storage
+[[Content-addressable storage (Wikipedia) (wikipedia.org)]]
 https://wikipedia.org/wiki/Collision_resistance
 https://github.com/open-policy-agent/gatekeeper-library/tree/master/library/general/imagedigests
 https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/
