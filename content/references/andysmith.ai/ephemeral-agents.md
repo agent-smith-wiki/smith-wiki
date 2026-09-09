@@ -1,5 +1,5 @@
 ---
-title: Ephemeral agents
+title: Ephemeral agents (andysmith.ai)
 type: reference
 kind: blog
 author: Andy Smith
