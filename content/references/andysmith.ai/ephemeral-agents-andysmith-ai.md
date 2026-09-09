@@ -17,7 +17,7 @@ Andy Smith argues that the fix for the "automod agent" problem — agents wander
 - An agent with physical access to secrets will get at them sooner or later, so [[Least privilege]] is the first thing you have to build.
 - Every agent should run in a [[Sandbox]] prepared specifically for it; the sandbox must be a [[Reproducible environment]] — unchangeable for the duration of the agent's tick — described as a Docker image or (better) a nix-container config / nix-flake.
 - [[Agent state]] at any moment is the state of its sandbox plus the state of the agent itself (its mutable directories: workdir, ~/.claude, and so on).
-- [[Ephemeral agents (andysmith.ai)]] get their ephemerality from two things: existing within a single session, and living only while actually working (its tick). This drops the notion of a session as we know it.
+- Ephemeral agents get their ephemerality from two things: existing within a single session, and living only while actually working (its tick). This drops the notion of a session as we know it.
 - Two operations replace sessions: create a new agent with a sandbox_description_id and a message, or revive an agent_id with an environment and a message. A new "session" is a new agent with a full, independent copy of the tooling, killing races from parallel edits.
 - After each tick, state is backed up as a diff from the initial launch state, enabling revival to any state (rollback is usually a bad idea since the world may have moved on via later tool calls).
 - An [[Orchestrator]] — external to the agents — creates agent-sessions and passes messages in from the communication platform; until one exists, run agents manually while keeping the sandbox-description and backup rules.
