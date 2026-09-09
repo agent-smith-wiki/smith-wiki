@@ -31,7 +31,7 @@ Deploy by digest so what runs in the cluster is exactly what was built and scann
 - https://github.com/opencontainers/image-spec/blob/main/image-index.md#oci-image-index-specification
 - https://github.com/opencontainers/image-spec/blob/main/config.md#properties
 - https://github.com/opencontainers/distribution-spec/blob/main/spec.md
-- https://wikipedia.org/wiki/Content-addressable_storage
+- [[Content-addressable storage (Wikipedia) (wikipedia.org)]]
 - https://docs.docker.com/registry/spec/manifest-v2-2/#manifest-list
 - https://open-policy-agent.github.io/gatekeeper/website/
 - https://github.com/open-policy-agent/gatekeeper-library/tree/master/library/general/imagedigests
