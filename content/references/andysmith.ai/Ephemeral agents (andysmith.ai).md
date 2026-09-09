@@ -14,7 +14,7 @@ Andy Smith argues that the fix for the "automod agent" problem — agents wander
 
 ## Key ideas
 
-- An agent with physical access to secrets will get at them sooner or later, so [[Least privilege]] is the first thing you have to build.
+- An agent with physical access to secrets will get at them sooner or later, so [[Principle of least privilege]] is the first thing you have to build.
 - Every agent should run in a [[Sandbox]] prepared specifically for it; the sandbox must be a [[Reproducible environment]] — unchangeable for the duration of the agent's tick — described as a Docker image or (better) a nix-container config / nix-flake.
 - [[Agent state]] at any moment is the state of its sandbox plus the state of the agent itself (its mutable directories: workdir, ~/.claude, and so on).
 - Ephemeral agents get their ephemerality from two things: existing within a single session, and living only while actually working (its tick). This drops the notion of a session as we know it.
