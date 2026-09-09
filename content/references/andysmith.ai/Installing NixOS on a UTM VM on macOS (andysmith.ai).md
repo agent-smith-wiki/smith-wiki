@@ -10,11 +10,11 @@ tags: [nixos, nix, utm, virtualization, macos]
 
 ## Summary
 
-Hands-on walkthrough of installing [[NixOS]] inside a [[UTM]] VM on an Apple Silicon MacBook Pro (macOS Tahoe 26.6.2). Andy downloads UTM and the NixOS 26.05 aarch64 minimal ISO, creates a Linux VM using the **QEMU** backend rather than Apple's [[Apple Virtualization framework|VZ]] (folk wisdom: QEMU glitches less and does better graphics on Linux guests), boots the minimal installer, SSHes in from the host, partitions with [[disko]], writes a [[Hyprland]]-based configuration, and runs `nixos-install`. The verdict is lukewarm: the Linux guest's graphics are close to unusable compared with macOS guests, so he leans toward staying with macOS guests (possibly moving from VirtualBuddy to UTM).
+Hands-on walkthrough of installing [[NixOS]] inside a [[UTM]] VM on an Apple Silicon MacBook Pro (macOS Tahoe 26.6.2). Andy downloads UTM and the NixOS 26.05 aarch64 minimal ISO, creates a Linux VM using the [[QEMU]] backend rather than Apple's [[Apple Virtualization framework|VZ]] (folk wisdom: QEMU glitches less and does better graphics on Linux guests), boots the minimal installer, SSHes in from the host, partitions with [[disko]], writes a [[Hyprland]]-based configuration, and runs `nixos-install`. The verdict is lukewarm: the Linux guest's graphics are close to unusable compared with macOS guests, so he leans toward staying with macOS guests (possibly moving from VirtualBuddy to UTM).
 
 ## Key ideas
 
-- Path of least resistance on Apple Silicon: UTM from the official site, the `nixos-26.05` aarch64 minimal ISO, boot with QEMU (not Apple VZ), and from the bare installer terminal run `ip ad sh` and `passwd`, then ssh in from the Mac.
+- Path of least resistance on Apple Silicon: UTM from the official site, the `nixos-26.05` aarch64 minimal ISO, boot with [[QEMU]] (not Apple VZ), and from the bare installer terminal run `ip ad sh` and `passwd`, then ssh in from the Mac.
 - **Don't panic about ping failing inside the VM** — that is an Apple network restriction on the host, not a broken install.
 - Disk setup is declarative via [[disko]], run straight from a [[Nix flakes|flake]] with no local repo: `sudo nix --experimental-features "nix-command flakes" run github:nix-community/disko/latest -- --mode destroy,format,mount /tmp/disko.nix` against a minimal GPT/ESP+ext4 config on `/dev/vda`.
 - Remaining install steps are stock [[NixOS]]: `nixos-generate-config --root /mnt`, a hand-written `configuration.nix` (systemd-boot, NetworkManager, openssh, a normal user, Hyprland via greetd/tuigreet), `system.stateVersion` taken from `nixos-version`, then `nixos-install`.
@@ -25,7 +25,7 @@ Hands-on walkthrough of installing [[NixOS]] inside a [[UTM]] VM on an Apple Sil
 ## Conclusions
 
 - [[NixOS]] genuinely runs in [[UTM]] on Apple Silicon, and the declarative install (disko + `nixos-install`) is smooth once you're over ssh.
-- The blocker is graphical quality: a Hyprland desktop in a QEMU-backed Linux guest renders far worse than a macOS guest, and he is not convinced a config tweak rescues it — so macOS guests stay his default, possibly migrated from VirtualBuddy to UTM.
+- The blocker is graphical quality: a Hyprland desktop in a [[QEMU]]-backed Linux guest renders far worse than a macOS guest, and he is not convinced a config tweak rescues it — so macOS guests stay his default, possibly migrated from VirtualBuddy to UTM.
 - He prefers the manual/declarative install over a graphical installer so the whole flow can later be driven from ready-made NixOS repos.
 
 ## Open questions
