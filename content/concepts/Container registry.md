@@ -1,14 +1,13 @@
 ---
 title: Container registry
 type: concept
-description: A network service that stores and distributes container images and related OCI artifacts so builders, runtimes, and orchestrators can share them.
+description: A networked service that stores and distributes container images, letting clients push and pull them over HTTP.
 tags: [container, oci, distribution]
 ---
 
-A container registry is a network service that stores and distributes [[Container image]] and related OCI artifacts so that builders, runtimes, and [[Orchestrator]] can share them. It is the standard delivery mechanism of the container ecosystem: builders *push* finished images to a registry, while runtimes and orchestrators *pull* them by name when a workload must run. A registry organizes images into repositories, each referenced by mutable tags or by immutable [[Container image digest]].
+A container registry is a networked HTTP service that stores and distributes [[Container image]]s: clients push images into it and pull them back out for use elsewhere. A registry hosts one or more repositories, each a collection of related images for a given project or application, and keeps each image's layers, manifests, and config as [[Content-addressable storage]] blobs retrievable by digest. Within a repository, images are referenced by a mutable [[Image tag]] or directly by an immutable [[Container image digest]].
 
 ## Sources
 
 - https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-registry
-- https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry
-- https://github.com/opencontainers/distribution-spec
+- https://github.com/opencontainers/distribution-spec/blob/main/spec.md
