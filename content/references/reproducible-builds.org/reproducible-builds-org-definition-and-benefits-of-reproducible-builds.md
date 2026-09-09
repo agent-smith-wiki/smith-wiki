@@ -1,6 +1,7 @@
 ---
 title: reproducible-builds.org — definition and benefits of reproducible builds
 type: reference
+url: https://reproducible-builds.org
 tags: [reproducibility, supply-chain-security, build-systems, dev-environments]
 ---
 
