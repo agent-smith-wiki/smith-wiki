@@ -23,4 +23,4 @@ A brief progress note in an ongoing [[virtualization]] tinkering arc. Andy repor
 
 ## Sources
 - https://mac.getutm.app
-- https://andysmith.ai/2026/Sep/4/hyprland/
+- [[Hyprland (andysmith.ai)]]
