@@ -1,4 +1,5 @@
 import { PageFrame, PageFrameProps } from "./types"
+import { AttributionFooter } from "../Attribution"
 
 /**
  * Minimal page frame — no sidebars, no header/footer chrome. Only the
@@ -19,6 +20,7 @@ export const MinimalFrame: PageFrame = {
         {footer.map((FooterComponent) => (
           <FooterComponent {...componentData} />
         ))}
+        <AttributionFooter />
       </>
     )
   },

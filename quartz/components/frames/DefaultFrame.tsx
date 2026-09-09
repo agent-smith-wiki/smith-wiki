@@ -1,5 +1,6 @@
 import { PageFrame, PageFrameProps } from "./types"
 import HeaderConstructor from "../Header"
+import { AttributionFooter } from "../Attribution"
 
 const Header = HeaderConstructor()
 
@@ -57,6 +58,7 @@ export const DefaultFrame: PageFrame = {
         {footer.map((FooterComponent) => (
           <FooterComponent {...componentData} />
         ))}
+        <AttributionFooter />
       </>
     )
   },
