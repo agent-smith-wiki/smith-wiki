@@ -22,5 +22,5 @@ A brief progress note in an ongoing [[virtualization]] tinkering arc. Andy repor
 ## Open questions
 
 ## Sources
-- https://mac.getutm.app
+- [[UTM — macOS virtualization and emulation (landing page) (mac.getutm.app)]]
 - [[Hyprland (andysmith.ai)]]

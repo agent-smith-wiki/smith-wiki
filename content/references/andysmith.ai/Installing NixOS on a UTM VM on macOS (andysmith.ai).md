@@ -35,6 +35,6 @@ Hands-on walkthrough of installing [[NixOS]] inside a [[UTM]] VM on an Apple Sil
 
 ## Sources
 
-- https://mac.getutm.app/
+- [[UTM — macOS virtualization and emulation (landing page) (mac.getutm.app)]]
 - https://channels.nixos.org/nixos-26.05/latest-nixos-minimal-aarch64-linux.iso
 - https://github.com/nix-community/disko
