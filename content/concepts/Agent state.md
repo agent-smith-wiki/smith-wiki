@@ -10,5 +10,5 @@ Agent state is the information an AI agent carries across the individual model c
 ## Sources
 
 - https://mlflow.org/articles/state-management-agents
-- https://blogs.oracle.com/developers/what-is-the-ai-agent-loop-the-core-architecture-behind-autonomous-ai-systems
+- [[What Is the AI Agent Loop? The Core Architecture Behind Autonomous AI Systems (blogs.oracle.com)]]
 - https://platform.claude.com/docs/en/managed-agents/memory
