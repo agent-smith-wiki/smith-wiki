@@ -10,5 +10,5 @@ tags: [concept, software-engineering, supply-chain]
 ## Sources
 
 - https://arxiv.org/html/2104.06020v1
-- https://reproducible-builds.org
+- [[Reproducible builds (reproducible-builds.org)]]
 - https://en.wikipedia.org/wiki/Reproducible_builds
