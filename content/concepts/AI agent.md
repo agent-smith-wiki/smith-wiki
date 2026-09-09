@@ -1,12 +1,15 @@
 ---
 title: AI agent
 type: concept
-tags: [ai, llm]
+description: An AI program that pursues a goal through autonomous, multi-step actions in an environment rather than one-shot output
+tags: [ai, agents, llm]
 ---
 
-An **AI agent** is an artificial-intelligence program that pursues a user-set goal with a degree of autonomy: rather than answering a single prompt, it plans and executes multi-step tasks, uses external tools, and acts on its environment. There is no universally agreed definition, but common attributes include goal-directed behaviour, tool use, the ability to interact with and modify an external environment, and autonomous multi-step execution, with control flow typically driven by a [[Large language model]].
+An **AI agent** (also called **agentic AI**) is an artificial-intelligence program that pursues a user's goal through autonomous, multi-step actions in an environment, rather than producing a single output such as a text answer. There is no universally agreed definition, but recurring attributes are goal-directed behaviour, use of external tools, interaction with and modification of an environment, and autonomy over extended tasks. In contemporary systems the control flow is typically directed by a large language model, which decides what action or tool call to make next from environmental feedback.
 
 ## Sources
 
-- https://www.anthropic.com/engineering/building-effective-agents
 - https://en.wikipedia.org/wiki/AI_agent
+- https://www.ibm.com/think/topics/ai-agents
+- https://www.anthropic.com/engineering/building-effective-agents
+- https://en.wikipedia.org/wiki/Intelligent_agent
