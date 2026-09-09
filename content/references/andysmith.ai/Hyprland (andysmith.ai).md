@@ -29,5 +29,5 @@ The post is a bookmark plus a statement of intent rather than an evaluation: Hyp
 - Is there genuinely no way to buy Hetzner servers without a GUI, as Smith claims?
 
 ## Sources
-- Omarchy: https://andysmith.ai/2026/Sep/4/omarchy/
+- Omarchy: [[Omarchy (andysmith.ai)]]
 - Hyprland: https://hypr.land/
