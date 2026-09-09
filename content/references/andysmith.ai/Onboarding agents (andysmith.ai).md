@@ -35,4 +35,4 @@ Smith walks through what onboarding a new agent actually requires in his setup: 
 
 ## Sources
 
-- https://andysmith.ai/2026/Sep/1/castle-architecture/
+- [[Castle architecture (andysmith.ai)]]
