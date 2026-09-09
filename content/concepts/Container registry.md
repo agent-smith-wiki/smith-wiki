@@ -10,4 +10,4 @@ A container registry is a networked HTTP service that stores and distributes [[C
 ## Sources
 
 - https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-registry
-- https://github.com/opencontainers/distribution-spec/blob/main/spec.md
+- [[OCI Distribution Specification (github.com)]]

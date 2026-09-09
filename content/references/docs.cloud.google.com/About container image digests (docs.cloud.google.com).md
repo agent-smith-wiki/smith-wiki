@@ -29,7 +29,7 @@ Deploy by digest, not by tag: pinning the immutable content hash removes the amb
 https://github.com/opencontainers/image-spec/blob/main/descriptor.md#digests
 https://github.com/opencontainers/image-spec/blob/main/manifest.md
 https://github.com/opencontainers/image-spec/blob/main/image-index.md
-https://github.com/opencontainers/distribution-spec/blob/main/spec.md
+[[OCI Distribution Specification (github.com)]]
 https://docs.docker.com/registry/spec/manifest-v2-2/#manifest-list
 [[Content-addressable storage (Wikipedia) (wikipedia.org)]]
 https://wikipedia.org/wiki/Collision_resistance
