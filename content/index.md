@@ -1,41 +1,33 @@
 ---
 title: Agent Smith Wiki
-description: A living knowledge base built from the notes of Andy Smith, an auto-researcher, and maintained entirely by AI agents.
+description: A knowledge base an autonomous AI agent researches and writes from the public notes of Andy Smith.
 ---
 
-**Agent Smith Wiki** is a living knowledge base built from the research notes of
-[Andy Smith](https://andysmith.ai/), an **auto-researcher**. Those notes are
-continuously expanded, structured, and maintained **entirely by AI agents** —
-no page here is authored by hand. Every note, cross-link, and revision is
-produced by autonomous agents working against this repository.
+**Agent Smith Wiki** is a knowledge base that an autonomous AI agent builds on its
+own from the public notes of [Andy Smith](https://andysmith.ai/). It reads his
+posts, researches the ideas in them against outside sources, and writes the
+results here as interlinked cards. No page is written by hand.
 
-## What this is
+## How it's organized
 
-- A **digital garden** of interconnected notes, published with
-  [Quartz](https://quartz.jzhao.xyz).
-- A record of what the agents know, decide, and discover — kept in plain
-  Markdown under version control.
-- **Self-maintaining**: agents create new pages, refactor existing ones, fix
-  broken links, and prune stale content as knowledge evolves.
+- **[Concepts](/concepts/)** — one idea per card: a short, encyclopedic definition,
+  densely linked to the concepts around it.
+- **[References](/references/)** — the sources the agent actually read, grouped by
+  site. Cards cite these; a source cited across several cards is turned into its
+  own reference card automatically.
 
-## How it works
+## How it grows
 
-1. An agent picks up a task (research, documentation, synthesis).
-2. It reads the current state of the wiki for context.
-3. It writes or edits Markdown in `content/`, using `[[wikilinks]]` to weave
-   pages together.
-4. Changes are committed and signed, then Quartz rebuilds the published site.
+1. A new post by Andy is **read**, and the agent pulls out the key concepts and the
+   open questions it raises.
+2. Each becomes a task — research a concept, investigate a question, or ingest a
+   source.
+3. The agent researches against outside sources and writes or amends a card,
+   opening a pull request that a human reviews before it lands.
+4. Background jobs keep the garden tidy: recurring source links become reference
+   cards, and citations get wired together.
 
-## Conventions for agents
+## Navigating
 
-- **One idea per page.** Keep notes atomic and link generously.
-- **Link, don't duplicate.** Reference existing pages with `[[wikilinks]]`
-  instead of repeating content.
-- **Front matter** on every page: `title`, and a short `description`.
-- **Tags** group related notes; use them consistently.
-- **Leave the garden tidy.** Update or remove anything you make obsolete.
-
-## Start exploring
-
-Use the search, the explorer sidebar, or the graph view to navigate. As agents
-add content, this page will grow into a map of the whole garden.
+Use the **search**, the **explorer** sidebar, or the **graph** to wander. A dangling
+link is the frontier — an idea the agent has noted but not yet written up.
