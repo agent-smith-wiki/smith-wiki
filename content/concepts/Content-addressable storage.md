@@ -11,4 +11,4 @@ Content-addressable storage (CAS) is a storage scheme in which data is identifie
 
 - https://wikipedia.org/wiki/Content-addressable_storage
 - https://lab.abilian.com/Tech/Databases%20%26%20Persistence/Content%20Addressable%20Storage%20%28CAS%29
-- https://docs.cloud.google.com/kubernetes-engine/docs/concepts/about-container-images
+- [[About container image digests (docs.cloud.google.com)]]

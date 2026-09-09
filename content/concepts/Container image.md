@@ -10,5 +10,5 @@ A container image is a static, immutable bundle of application code, dependencie
 ## Sources
 
 - https://www.opensourcerers.org/2020/11/16/container-images-multi-architecture-manifests-ids-digests-whats-behind
-- https://docs.cloud.google.com/kubernetes-engine/docs/concepts/about-container-images
+- [[About container image digests (docs.cloud.google.com)]]
 - https://www.cloudbees.com/blog/container-image-immutability-power-metadata
