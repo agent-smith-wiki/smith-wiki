@@ -9,6 +9,6 @@ A container image digest is a content-derived identifier for a [[Container image
 
 ## Sources
 
-- https://docs.cloud.google.com/kubernetes-engine/docs/concepts/about-container-images
+- [[About container image digests (docs.cloud.google.com)]]
 - https://raw.githubusercontent.com/opencontainers/image-spec/main/descriptor.md
 - https://raw.githubusercontent.com/opencontainers/distribution-spec/main/spec.md
