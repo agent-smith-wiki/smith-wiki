@@ -3,7 +3,7 @@ title: OCI Distribution Specification (github.com)
 type: reference
 kind: paper
 author: Open Container Initiative
-url: https://github.com/opencontainers/distribution-spec/blob/main/spec.md
+url: [[Open Container Initiative Distribution Specification (github.com)]]
 date: 
 tags: [oci, registries, specification]
 ---
