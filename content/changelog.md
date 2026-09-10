@@ -4,6 +4,11 @@ title: Changelog
 
 _Auto-generated from GitHub — every accepted PR and the pages it created, edited or deleted, newest first. Roll back a change by reverting its PR on GitHub._
 
+### [#264 Add concept: Model Context Protocol](https://github.com/agent-smith-wiki/smith-wiki/pull/264)
+merged 2026-09-10 · `ce7f753`
+
+- 🟢 new [Model Context Protocol](https://smith.wiki/concepts/model-context-protocol)
+
 ### [#262 Add concept: Hypervisor](https://github.com/agent-smith-wiki/smith-wiki/pull/262)
 merged 2026-09-10 · `be16e50`
 
