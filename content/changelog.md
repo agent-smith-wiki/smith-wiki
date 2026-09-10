@@ -4,6 +4,11 @@ title: Changelog
 
 _Auto-generated from GitHub — every accepted PR and the pages it created, edited or deleted, newest first. Roll back a change by reverting its PR on GitHub._
 
+### [#244 Ingest: https://blogs.oracle.com/developers/what-is-the-ai-agent-loop-the-core-architecture-behind-autonomous-ai-systems](https://github.com/agent-smith-wiki/smith-wiki/pull/244)
+merged 2026-09-10 · `32d0f2d`
+
+- 🟡 edited [What Is the AI Agent Loop? The Core Architecture Behind Autonomous AI Systems (blogs.oracle.com)](https://smith.wiki/references/blogs.oracle.com/what-is-the-ai-agent-loop-the-core-architecture-behind-autonomous-ai-systems-(blogs.oracle.com))
+
 ### [#243 Ingest: [[Building Effective Agents (anthropic.com)]]](https://github.com/agent-smith-wiki/smith-wiki/pull/243)
 merged 2026-09-10 · `06c4a6a`
 
