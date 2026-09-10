@@ -6,10 +6,14 @@
 <title>{% if title and title != "Smith Wiki" %}{{ title }} — Smith Wiki{% else %}Smith Wiki{% endif %}</title>
 <link rel="stylesheet" href="/assets/water.css">
 <script src="/assets/posthog.js"></script>
+<script src="/assets/search.js"></script>
 </head>
 <body>
 <header>
 <nav><a href="/"><strong>Smith Wiki</strong></a></nav>
+<form role="search">
+<input name="q" type="search" placeholder="Search the wiki…" aria-label="Search Smith Wiki via Google">
+</form>
 </header>
 <main>{{ content | safe }}</main>
 <footer>
