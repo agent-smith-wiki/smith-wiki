@@ -1,0 +1,20 @@
+---
+layout: base.njk
+title: Not found
+permalink: 404.html
+eleventyExcludeFromCollections: true
+---
+<h1>404 — page not found</h1>
+<p>There's no page here. It may not have been written yet — the wiki grows as <a href="https://github.com/sm-th/meno">meno</a> reads new posts. Head back to the <a href="/">index</a>.</p>
+<script>
+(function () {
+  try {
+    if (!window.posthog) return;
+    var props = { pathname: location.pathname, path: location.pathname + location.search, referrer: document.referrer || null };
+    posthog.capture('404_not_found', props);
+    if (typeof posthog.captureException === 'function') {
+      posthog.captureException(new Error('404 Not Found: ' + location.pathname), props);
+    }
+  } catch (e) {}
+})();
+</script>
