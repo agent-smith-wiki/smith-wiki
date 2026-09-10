@@ -3,10 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{% if title and title != "Smith Wiki" %}{{ title }} — Smith Wiki{% else %}Smith Wiki{% endif %}</title>
+<title>{% if title and title != site.title %}{{ title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+{% set desc = description or (content | excerpt) %}
+{% set ogtype = "website" if page.url == "/" else "article" %}
+{% if noindex %}<meta name="robots" content="noindex">{% endif %}
+{% if desc %}<meta name="description" content="{{ desc }}">{% endif %}
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="{{ ogtype }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:title" content="{{ title or site.title }}">
+{% if desc %}<meta property="og:description" content="{{ desc }}">{% endif %}
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ title or site.title }}">
+{% if desc %}<meta name="twitter:description" content="{{ desc }}">{% endif %}
 <link rel="stylesheet" href="/assets/water.css">
+<style>header{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}header nav,header form{margin:0}header input{margin:0;width:16rem;max-width:100%}</style>
 <script src="/assets/posthog.js"></script>
 <script src="/assets/search.js"></script>
+{% if page.url == "/" %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","url":"{{ site.url }}/","name":{{ site.title | dump | safe }}}</script>
+{% else %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":{{ (title or site.title) | dump | safe }},"url":"{{ site.url }}{{ page.url }}","mainEntityOfPage":"{{ site.url }}{{ page.url }}",{% if desc %}"description":{{ desc | dump | safe }},{% endif %}"author":{"@type":"Organization","name":{{ site.author | dump | safe }}},"isPartOf":{"@type":"WebSite","url":"{{ site.url }}/","name":{{ site.title | dump | safe }}}}</script>{% endif %}
 </head>
 <body>
 <header>

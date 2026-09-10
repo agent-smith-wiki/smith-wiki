@@ -28,6 +28,14 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addFilter("typeEmoji", (t) => TYPE_EMOJI[t] || "•");
 
+  // Plain-text excerpt from rendered HTML, for meta/OG descriptions.
+  eleventyConfig.addFilter("excerpt", (html) =>
+    String(html || "")
+      .replace(/<h1[\s\S]*?<\/h1>/i, " ")
+      .replace(/<p><strong>Source:<\/strong>[\s\S]*?<\/p>/i, " ")
+      .replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().slice(0, 155));
+  eleventyConfig.addFilter("isoDate", (d) => new Date(d).toISOString());
+
   // [[Title]] and [[Title|alias]] -> <a href="/slug/">emoji alias</a>. Runs on
   // rendered HTML (markdown-it leaves [[...]] literal). Slug matches meno's
   // kb/slug. The emoji is the TARGET page's type, so a reader sees what kind of
