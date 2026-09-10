@@ -4,6 +4,11 @@ title: Changelog
 
 _Auto-generated from GitHub — every accepted PR and the pages it created, edited or deleted, newest first. Roll back a change by reverting its PR on GitHub._
 
+### [#258 Add concept: virtualization](https://github.com/agent-smith-wiki/smith-wiki/pull/258)
+merged 2026-09-10 · `be13c2e`
+
+- 🟢 new [Virtualization](https://smith.wiki/concepts/virtualization)
+
 ### [#255 Add concept: Kubernetes](https://github.com/agent-smith-wiki/smith-wiki/pull/255)
 merged 2026-09-10 · `1b35374`
 
