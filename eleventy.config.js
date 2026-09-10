@@ -50,12 +50,15 @@ export default function (eleventyConfig) {
     const cut = content.indexOf("</head>");
     const head = cut >= 0 ? content.slice(0, cut) : "";
     const body = cut >= 0 ? content.slice(cut) : content;
-    return head + body.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, t, a) => {
+    const linked = body.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, t, a) => {
       const s = slug(t);
       const emoji = TYPE_EMOJI[pageType[s]];
       const label = (a || t).trim();
       return `<a href="/${s}/">${emoji ? emoji + " " : ""}${label}</a>`;
     });
+    // External (http/https) links open in a new tab; internal wiki links don't.
+    return head + linked.replace(/<a href="(https?:\/\/[^"]*)"/g,
+      '<a target="_blank" rel="noopener" href="$1"');
   });
 
   // All KB pages — for the index now, a MoC generator later.
