@@ -4,6 +4,11 @@ title: Changelog
 
 _Auto-generated from GitHub — every accepted PR and the pages it created, edited or deleted, newest first. Roll back a change by reverting its PR on GitHub._
 
+### [#250 Add concept: Experience lake](https://github.com/agent-smith-wiki/smith-wiki/pull/250)
+merged 2026-09-10 · `aac3f34`
+
+- 🟢 new [Experience lake](https://smith.wiki/concepts/experience-lake)
+
 ### [#248 Add concept: UTM](https://github.com/agent-smith-wiki/smith-wiki/pull/248)
 merged 2026-09-10 · `4f0dc54`
 
