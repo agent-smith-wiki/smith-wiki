@@ -9,6 +9,6 @@ An image tag is a human-readable pointer that a [[Container registry]] resolves 
 
 ## Sources
 
-- https://github.com/opencontainers/distribution-spec/blob/main/spec.md
+- [[Open Container Initiative Distribution Specification (github.com)]]
 - https://docs.docker.com/get-started/docker-concepts/building-images/build-tag-and-publish-an-image/
 - https://docs.docker.com/reference/cli/docker/image/tag/
