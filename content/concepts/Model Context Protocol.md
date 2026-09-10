@@ -5,7 +5,7 @@ description: Open standard defining a client–server interface for connecting L
 tags: [protocol, ai, llm, interoperability]
 ---
 
-**Model Context Protocol** (MCP) is an open standard defining a client–server interface for connecting [[Large language model]]s to external tools and data sources (https://modelcontextprotocol.io/specification/2025-06-18).
+**Model Context Protocol** (MCP) is an open standard defining a client–server interface for connecting [[Large language model]]s to external [[Tool use]] and data sources (https://modelcontextprotocol.io/specification/2025-06-18).
 
 ## Sources
 
