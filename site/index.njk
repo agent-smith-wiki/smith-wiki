@@ -4,6 +4,7 @@ title: Smith Wiki
 ---
 <h1>Smith Wiki</h1>
 <p>An auto-grown research wiki — atomic, densely linked pages, written entirely by an agent from public notes.</p>
+<p><small>💡 concept · 📄 source · ❓ question · 💬 claim · 🔬 research</small></p>
 <ul>
-{% for p in collections.kb %}<li><a href="{{ p.url }}">{{ p.data.title }}</a> — <em>{{ p.data.type }}</em></li>
+{% for p in collections.kb %}<li><span title="{{ p.data.type }}">{{ p.data.type | typeEmoji }}</span> <a href="{{ p.url }}">{{ p.data.title }}</a></li>
 {% endfor %}</ul>

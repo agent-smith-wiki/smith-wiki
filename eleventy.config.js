@@ -11,6 +11,10 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("site/assets");
   eleventyConfig.addPassthroughCopy("site/CNAME"); // GitHub Pages custom domain
 
+  // Page type -> emoji, shown at the start of links and titles.
+  const TYPE_EMOJI = { concept: "💡", source: "📄", question: "❓", claim: "💬", research: "🔬" };
+  eleventyConfig.addFilter("typeEmoji", (t) => TYPE_EMOJI[t] || "•");
+
   // [[Title]] and [[Title|alias]] -> <a href="/slug/">alias</a>. Runs on rendered
   // HTML (markdown-it leaves [[...]] as literal text). Slug matches meno's kb/slug.
   eleventyConfig.addTransform("wikilinks", function (content) {
