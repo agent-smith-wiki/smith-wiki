@@ -22,7 +22,9 @@ for (const f of readdirSync("site")) {
 }
 
 export default function (eleventyConfig) {
-  eleventyConfig.amendLibrary("md", (md) => md.set({ linkify: true }));
+  // linkify OFF: it autolinks bare domains inside [[wikilinks]] (source titles now
+  // carry a domain), corrupting the slug the wikilinks transform computes below.
+  eleventyConfig.amendLibrary("md", (md) => md.set({ linkify: false }));
   eleventyConfig.addPassthroughCopy("site/assets");
   eleventyConfig.addPassthroughCopy("site/CNAME"); // GitHub Pages custom domain
 
@@ -33,6 +35,8 @@ export default function (eleventyConfig) {
     String(html || "")
       .replace(/<h1[\s\S]*?<\/h1>/i, " ")
       .replace(/<p><strong>Source:<\/strong>[\s\S]*?<\/p>/i, " ")
+      .replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, t, a) => a || t)
+      .replace(/[\[\]]/g, " ")
       .replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().slice(0, 155));
   eleventyConfig.addFilter("isoDate", (d) => new Date(d).toISOString());
 
@@ -43,7 +47,10 @@ export default function (eleventyConfig) {
   eleventyConfig.addTransform("wikilinks", function (content) {
     const out = this.page && this.page.outputPath;
     if (!out || !out.endsWith(".html")) return content;
-    return content.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, t, a) => {
+    const cut = content.indexOf("</head>");
+    const head = cut >= 0 ? content.slice(0, cut) : "";
+    const body = cut >= 0 ? content.slice(cut) : content;
+    return head + body.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, t, a) => {
       const s = slug(t);
       const emoji = TYPE_EMOJI[pageType[s]];
       const label = (a || t).trim();
