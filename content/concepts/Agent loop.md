@@ -9,5 +9,5 @@ An **agent loop** is the iterative execution cycle that runs an [[AI agents]]: a
 
 ## Sources
 
-- https://www.anthropic.com/engineering/building-effective-agents
+- [[Building Effective Agents (anthropic.com)]]
 - [[What Is the AI Agent Loop? The Core Architecture Behind Autonomous AI Systems (blogs.oracle.com)]]

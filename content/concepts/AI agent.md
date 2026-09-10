@@ -11,5 +11,5 @@ An **AI agent** (also called **agentic AI**) is an artificial-intelligence progr
 
 - https://en.wikipedia.org/wiki/AI_agent
 - https://www.ibm.com/think/topics/ai-agents
-- https://www.anthropic.com/engineering/building-effective-agents
+- [[Building Effective Agents (anthropic.com)]]
 - https://en.wikipedia.org/wiki/Intelligent_agent

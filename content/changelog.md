@@ -4,12 +4,12 @@ title: Changelog
 
 _Auto-generated from GitHub — every accepted PR and the pages it created, edited or deleted, newest first. Roll back a change by reverting its PR on GitHub._
 
-### [#239 Ingest: https://andysmith.ai/2026/Sep/1/pijul/](https://github.com/agent-smith-wiki/smith-wiki/pull/239)
+### [#239 Ingest: [[Pijul (andysmith.ai)]]](https://github.com/agent-smith-wiki/smith-wiki/pull/239)
 merged 2026-09-10 · `246f2f9`
 
 - 🟢 new [Pijul (andysmith.ai)](https://smith.wiki/references/andysmith.ai/pijul-(andysmith.ai))
 
-### [#238 Ingest: [[Open Container Initiative Distribution Specification (github.com)]]](https://github.com/agent-smith-wiki/smith-wiki/pull/238)
+### [#238 Ingest: [[OCI Distribution Specification (github.com)]]](https://github.com/agent-smith-wiki/smith-wiki/pull/238)
 merged 2026-09-10 · `60827c5`
 
 - 🟢 new [Open Container Initiative Distribution Specification (github.com)](https://smith.wiki/references/github.com/open-container-initiative-distribution-specification-(github.com))

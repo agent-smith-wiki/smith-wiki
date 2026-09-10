@@ -44,7 +44,7 @@ The article's central claim is that the [[Agent loop|agent loop]] is the archite
 - https://arxiv.org/pdf/2210.03629
 - https://arxiv.org/abs/2010.03768
 - https://arxiv.org/abs/2207.01206
-- https://www.anthropic.com/engineering/building-effective-agents
+- [[Building Effective Agents (anthropic.com)]]
 - https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf
 - https://lilianweng.github.io/posts/2023-06-23-agent/
 - https://www.anthropic.com/news/model-context-protocol

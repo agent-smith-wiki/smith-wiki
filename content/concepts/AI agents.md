@@ -9,6 +9,6 @@ tags: [artificial-intelligence, agents, llm]
 
 ## Sources
 
-- https://www.anthropic.com/engineering/building-effective-agents
+- [[Building Effective Agents (anthropic.com)]]
 - https://www.langchain.com/blog/what-is-an-agent
 - https://en.wikipedia.org/wiki/Intelligent_agent
