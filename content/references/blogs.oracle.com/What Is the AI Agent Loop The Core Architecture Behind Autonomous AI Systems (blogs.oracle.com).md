@@ -36,7 +36,7 @@ Does adding a separate planning stage pay for itself in fewer LLM calls and lowe
 
 ## Sources
 - ReAct (Yao et al., 2022) — https://arxiv.org/pdf/2210.03629
-- Anthropic, Building effective agents — https://www.anthropic.com/engineering/building-effective-agents
+- Anthropic, Building effective agents — [[Building Effective Agents (anthropic.com)]]
 - Anthropic, How we built our multi-agent research system — https://www.anthropic.com/engineering/multi-agent-research-system
 - Anthropic, Model Context Protocol — https://www.anthropic.com/news/model-context-protocol
 - OpenAI, A practical guide to building agents — https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf
