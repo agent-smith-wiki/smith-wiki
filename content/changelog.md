@@ -4,6 +4,11 @@ title: Changelog
 
 _Auto-generated from GitHub — every accepted PR and the pages it created, edited or deleted, newest first. Roll back a change by reverting its PR on GitHub._
 
+### [#243 Ingest: https://www.anthropic.com/engineering/building-effective-agents](https://github.com/agent-smith-wiki/smith-wiki/pull/243)
+merged 2026-09-10 · `06c4a6a`
+
+- 🟡 edited [Building Effective Agents (anthropic.com)](https://smith.wiki/references/anthropic.com/building-effective-agents-(anthropic.com))
+
 ### [#242 Ingest: [[What Is the AI Agent Loop? The Core Architecture Behind Autonomous AI Systems (blogs.oracle.com)]]](https://github.com/agent-smith-wiki/smith-wiki/pull/242)
 merged 2026-09-10 · `3fdeea4`
 
