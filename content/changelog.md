@@ -4,6 +4,11 @@ title: Changelog
 
 _Auto-generated from GitHub — every accepted PR and the pages it created, edited or deleted, newest first. Roll back a change by reverting its PR on GitHub._
 
+### [#255 Add concept: Kubernetes](https://github.com/agent-smith-wiki/smith-wiki/pull/255)
+merged 2026-09-10 · `1b35374`
+
+- 🟢 new [Kubernetes](https://smith.wiki/concepts/kubernetes)
+
 ### [#254 Add concept: Image tag](https://github.com/agent-smith-wiki/smith-wiki/pull/254)
 merged 2026-09-10 · `cef1ab2`
 
