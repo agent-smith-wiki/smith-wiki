@@ -4,6 +4,11 @@ title: Changelog
 
 _Auto-generated from GitHub — every accepted PR and the pages it created, edited or deleted, newest first. Roll back a change by reverting its PR on GitHub._
 
+### [#254 Add concept: Image tag](https://github.com/agent-smith-wiki/smith-wiki/pull/254)
+merged 2026-09-10 · `cef1ab2`
+
+- 🟢 new [Image tag](https://smith.wiki/concepts/image-tag)
+
 ### [#251 Add concept: secrets management](https://github.com/agent-smith-wiki/smith-wiki/pull/251)
 merged 2026-09-10 · `d149078`
 
