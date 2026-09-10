@@ -4,7 +4,7 @@ title: Changelog
 
 _Auto-generated from GitHub — every accepted PR and the pages it created, edited or deleted, newest first. Roll back a change by reverting its PR on GitHub._
 
-### [#243 Ingest: https://www.anthropic.com/engineering/building-effective-agents](https://github.com/agent-smith-wiki/smith-wiki/pull/243)
+### [#243 Ingest: [[Building Effective Agents (anthropic.com)]]](https://github.com/agent-smith-wiki/smith-wiki/pull/243)
 merged 2026-09-10 · `06c4a6a`
 
 - 🟡 edited [Building Effective Agents (anthropic.com)](https://smith.wiki/references/anthropic.com/building-effective-agents-(anthropic.com))
