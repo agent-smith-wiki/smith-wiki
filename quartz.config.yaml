@@ -246,6 +246,9 @@ plugins:
     options:
       includeAll: false
       includedProperties:
+        - url
+        - author
+        - date
         - description
         - tags
         - aliases
