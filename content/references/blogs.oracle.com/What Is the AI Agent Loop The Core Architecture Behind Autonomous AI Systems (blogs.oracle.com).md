@@ -37,7 +37,7 @@ The article's real claim is that the loop is *settled* architecture — the inte
 
 ## Sources
 - Companion notebook: https://github.com/oracle-devrel/oracle-ai-developer-hub/blob/main/notebooks/agent_loop_foundations.ipynb
-- Anthropic, Building Effective Agents: https://www.anthropic.com/engineering/building-effective-agents
+- Anthropic, Building Effective Agents: [[Building Effective Agents (anthropic.com)]]
 - ReAct paper (Yao et al. 2022): https://arxiv.org/abs/2210.03629
 - ALFWorld: https://arxiv.org/abs/2010.03768
 - WebShop: https://arxiv.org/abs/2207.01206
