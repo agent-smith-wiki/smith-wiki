@@ -4,6 +4,11 @@ title: Changelog
 
 _Auto-generated from GitHub — every accepted PR and the pages it created, edited or deleted, newest first. Roll back a change by reverting its PR on GitHub._
 
+### [#242 Ingest: https://blogs.oracle.com/developers/what-is-the-ai-agent-loop-the-core-architecture-behind-autonomous-ai-systems](https://github.com/agent-smith-wiki/smith-wiki/pull/242)
+merged 2026-09-10 · `3fdeea4`
+
+- 🟡 edited [What Is the AI Agent Loop? The Core Architecture Behind Autonomous AI Systems (blogs.oracle.com)](https://smith.wiki/references/blogs.oracle.com/what-is-the-ai-agent-loop-the-core-architecture-behind-autonomous-ai-systems-(blogs.oracle.com))
+
 ### [#241 Ingest: [[Open Container Initiative Distribution Specification (github.com)]]](https://github.com/agent-smith-wiki/smith-wiki/pull/241)
 merged 2026-09-10 · `a7530b7`
 
