@@ -4,6 +4,11 @@ title: Changelog
 
 _Auto-generated from GitHub — every accepted PR and the pages it created, edited or deleted, newest first. Roll back a change by reverting its PR on GitHub._
 
+### [#238 Ingest: https://github.com/opencontainers/distribution-spec/blob/main/spec.md](https://github.com/agent-smith-wiki/smith-wiki/pull/238)
+merged 2026-09-10 · `60827c5`
+
+- 🟢 new [Open Container Initiative Distribution Specification (github.com)](https://smith.wiki/references/github.com/open-container-initiative-distribution-specification-(github.com))
+
 ### [#237 Add concept: AI agents](https://github.com/agent-smith-wiki/smith-wiki/pull/237)
 merged 2026-09-10 · `1872e62`
 
