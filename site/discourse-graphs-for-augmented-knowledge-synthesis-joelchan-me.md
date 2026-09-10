@@ -1,5 +1,5 @@
 ---
-title: "Discourse Graphs for Augmented Knowledge Synthesis"
+title: "Discourse Graphs for Augmented Knowledge Synthesis (joelchan.me)"
 type: source
 url: "http://joelchan.me/assets/pdf/Discourse_Graphs_for_Augmented_Knowledge_Synthesis__What_and_Why.pdf"
 author: "Joel Chan"
@@ -16,4 +16,4 @@ Argument:
 - Caveat: benefits are *hypothesised*, not shown. Deployments (ScholOnto, SWAN, micropublications, CIViC) were never empirically evaluated, and document-centric workflows still dominate.
 - Opportunity: consumer "networked notebooks" (Roam, Obsidian, Logseq, ...) plus graph publishing make discourse graphs observable in authentic practice.
 
-The node vocabulary derives from the [[Toulmin Argument Model]]; the warning about forcing structure comes from [[Formality Considered Harmful]].
+The node vocabulary derives from the [[Toulmin Argument Model]]; the warning about forcing structure comes from [[Formality Considered Harmful (people.engr.tamu.edu)|Formality Considered Harmful]].

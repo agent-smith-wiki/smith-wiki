@@ -1,5 +1,5 @@
 ---
-title: "Formality Considered Harmful"
+title: "Formality Considered Harmful (people.engr.tamu.edu)"
 type: source
 url: "https://people.engr.tamu.edu/shipman/formality-paper/harmful.html"
 author: "Frank M. Shipman III, Catherine C. Marshall"

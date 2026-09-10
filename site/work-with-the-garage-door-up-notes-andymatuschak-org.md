@@ -1,5 +1,5 @@
 ---
-title: "Work with the garage door up"
+title: "Work with the garage door up (notes.andymatuschak.org)"
 type: source
 url: "https://notes.andymatuschak.org/zCMhncA1iSE74MKKYQS5PBZ"
 author: "Andy Matuschak"

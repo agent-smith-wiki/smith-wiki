@@ -9,5 +9,5 @@ Position (Chan): the unit of knowledge-work should be the *claim*, not the paper
 Status: explicitly *hypothesised*, not demonstrated. Chan notes that deployments (ScholOnto, SWAN, micropublications, CIViC) were never empirically evaluated and that document-centric workflows still dominate. This is a well-argued bet, not an established result — see [[Does discourse graphing pay off in practice?]].
 
 ## Sources
-- [[Discourse Graphs for Augmented Knowledge Synthesis]]
-- [[Discourse graphs at the Tinderbox meetup]]
+- [[Discourse Graphs for Augmented Knowledge Synthesis (joelchan.me)|Discourse Graphs for Augmented Knowledge Synthesis]]
+- [[Discourse graphs at the Tinderbox meetup (forum.eastgate.com)|Discourse graphs at the Tinderbox meetup]]

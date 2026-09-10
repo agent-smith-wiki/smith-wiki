@@ -9,4 +9,4 @@ tags: ["note-taking", "privacy"]
 Open: does the resulting corpus still support a useful [[Auto-Researcher]], or does pre-filtering for publishability strip the very material that made the notes worth researching? No answer in the source — it is the standing cost of the approach.
 
 ## Sources
-- [[An auto-researcher built on my blog]]
+- [[An auto-researcher built on my blog (andysmith.ai)|An auto-researcher built on my blog]]

@@ -1,5 +1,5 @@
 ---
-title: "MosaicLeaks: Can your research agent keep a secret?"
+title: "MosaicLeaks: Can your research agent keep a secret? (huggingface.co)"
 type: source
 url: "https://huggingface.co/blog/ServiceNow/mosaicleaks"
 author: "Alexander Gurung, Spandana Gella, Alexandre Drouin, Issam H. Laradji, Perouz Taslakian, Rafael Pardinas"
@@ -7,7 +7,7 @@ date: "2026-06-18"
 tags: ["privacy", "ai-agents", "research", "retrieval-augmented-generation"]
 ---
 
-MosaicLeaks studies a privacy risk specific to deep-research agents: when an agent combines private local documents with external tools such as web retrieval, its outward queries can leak the private material. The leakage channel is the cumulative web-query log — the adversary never sees the documents or the reasoning. This is the [[Mosaic effect]]: individually benign queries become revealing in aggregate.
+MosaicLeaks studies a privacy risk specific to deep-research agents: when an agent combines private local documents with external tools such as web retrieval, its outward queries can leak the private material. The leakage channel is the cumulative web-query log — the adversary never sees the documents or the reasoning. This is the [[Mosaic effect (en.wikipedia.org)|Mosaic effect]]: individually benign queries become revealing in aggregate.
 
 Three leakage measures, in increasing severity: intent (infer the agent's private research questions), answer (answer private questions from the query log), full-information (state verifiably true private claims without being told what to look for). The benchmark is 1,001 multi-hop chains interleaving local enterprise documents with a controlled web corpus, built so that each answer becomes the bridge entity for the next query.
 

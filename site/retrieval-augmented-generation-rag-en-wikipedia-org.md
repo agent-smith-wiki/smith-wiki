@@ -1,5 +1,5 @@
 ---
-title: "Retrieval-Augmented Generation (RAG)"
+title: "Retrieval-Augmented Generation (RAG) (en.wikipedia.org)"
 type: source
 url: "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
 author: "Wikipedia contributors"
@@ -10,4 +10,4 @@ Retrieval-augmented generation (RAG) combines a parametric language model with a
 
 Claimed benefits: grounding responses in domain-specific or up-to-date information without retraining, and citing sources for verification. Documented limitations: RAG reduces but does not eliminate hallucination — models can misinterpret a correctly retrieved source, prioritize retrieved text uncritically ('prompt stuffing'), or merge conflicting sources.
 
-Relevance: RAG is the mechanism that lets an [[Auto-Researcher]] be 'built on a blog' — the author's notes become the retrievable external memory. STORM ([[STORM: Writing Wikipedia-like Articles From Scratch]]) is a RAG-style system applied to writing whole articles.
+Relevance: RAG is the mechanism that lets an [[Auto-Researcher]] be 'built on a blog' — the author's notes become the retrievable external memory. STORM ([[STORM: Writing Wikipedia-like Articles From Scratch (arxiv.org)|STORM: Writing Wikipedia-like Articles From Scratch]]) is a RAG-style system applied to writing whole articles.

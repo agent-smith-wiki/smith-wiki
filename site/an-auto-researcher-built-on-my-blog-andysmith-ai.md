@@ -1,5 +1,5 @@
 ---
-title: "An auto-researcher built on my blog"
+title: "An auto-researcher built on my blog (andysmith.ai)"
 type: source
 url: "https://andysmith.ai/2026/Sep/6/an-auto-researcher-built-on-my-blog/"
 author: "Andy Smith"

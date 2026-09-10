@@ -1,5 +1,5 @@
 ---
-title: "STORM: Writing Wikipedia-like Articles From Scratch"
+title: "STORM: Writing Wikipedia-like Articles From Scratch (arxiv.org)"
 type: source
 url: "https://arxiv.org/abs/2402.14207"
 author: "Yijia Shao, Yucheng Jiang, Theodore A. Kanell, Peter Xu, Omar Khattab, Monica Lam"
@@ -11,4 +11,4 @@ STORM (Synthesis of Topic Outlines through Retrieval and Multi-perspective Quest
 
 Evaluation: on the curated FreshWiki dataset, more STORM articles were judged organized (a 25% absolute increase) and broad in coverage (a 10% increase) than an outline-driven retrieval-augmented baseline. Expert Wikipedia-editor feedback surfaced failure modes relevant to any auto-researcher: source bias transfer and over-association of unrelated facts. Co-STORM adds a human collaborator.
 
-Relevance: this is the closest well-documented prior art for an [[Auto-Researcher]]. Both autonomously produce long, grounded articles; the difference is corpus — STORM retrieves from the open Internet, whereas an agent built on a blog retrieves from its author's own public notes. See [[Retrieval-Augmented Generation (RAG)]] for the underlying mechanism.
+Relevance: this is the closest well-documented prior art for an [[Auto-Researcher]]. Both autonomously produce long, grounded articles; the difference is corpus — STORM retrieves from the open Internet, whereas an agent built on a blog retrieves from its author's own public notes. See [[Retrieval-Augmented Generation (RAG) (en.wikipedia.org)|Retrieval-Augmented Generation (RAG)]] for the underlying mechanism.

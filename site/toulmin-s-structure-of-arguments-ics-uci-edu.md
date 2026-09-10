@@ -1,5 +1,5 @@
 ---
-title: "Toulmin's Structure of Arguments"
+title: "Toulmin's Structure of Arguments (ics.uci.edu)"
 type: source
 url: "https://www.ics.uci.edu/~alspaugh/cls/shr/argument.html"
 author: "after Stephen Toulmin (The Uses of Argument, 1958)"

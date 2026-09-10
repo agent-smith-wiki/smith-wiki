@@ -1,5 +1,5 @@
 ---
-title: "Discourse graphs at the Tinderbox meetup"
+title: "Discourse graphs at the Tinderbox meetup (forum.eastgate.com)"
 type: source
 url: "https://forum.eastgate.com/t/tinderbox-meetup-saturday-16-september-video-knowledge-synthesis-and-discourse-graphs-with-joel-chan/6979"
 author: "satikusala (Tinderbox forum); Joel Chan (presenter)"
@@ -15,4 +15,4 @@ Key ideas as presented:
 - The know-how is codified as community "conventions" (e.g. Joel's convention for discourse-graphing papers), not just tools.
 - The practice spans personal knowledge management (PKM) and collaborative knowledge management (CKM), and is meant to be shared and reused across people.
 
-Resources linked from the post include Chan's public research and public discourse graph, the Roam/Obsidian/Tinderbox/Logseq/Tana/Notion toolset, and two foundational references — [[Formality Considered Harmful]] and Toulmin's structure of argument — alongside his own [[Discourse Graphs for Augmented Knowledge Synthesis]].
+Resources linked from the post include Chan's public research and public discourse graph, the Roam/Obsidian/Tinderbox/Logseq/Tana/Notion toolset, and two foundational references — [[Formality Considered Harmful (people.engr.tamu.edu)|Formality Considered Harmful]] and Toulmin's structure of argument — alongside his own [[Discourse Graphs for Augmented Knowledge Synthesis (joelchan.me)|Discourse Graphs for Augmented Knowledge Synthesis]].

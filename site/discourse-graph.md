@@ -12,10 +12,10 @@ Contrast with document-centric knowledge management ("iTunes for papers"), where
 
 Discourse graphs need not be visual; the same graph model can live in hypertext notebooks (Roam, Obsidian, Tinderbox) or even in analog cross-referencing. Published subsets of a personal graph exist (RoamGarden, Obsidian Publish).
 
-A tension: representing typed claims, evidence and relations is itself formal structure, which [[Formality Considered Harmful]] says users reject — see [[Does discourse graphing pay off in practice?]].
+A tension: representing typed claims, evidence and relations is itself formal structure, which [[Formality Considered Harmful (people.engr.tamu.edu)|Formality Considered Harmful]] says users reject — see [[Does discourse graphing pay off in practice?]].
 
 ## Sources
-- [[Discourse Graphs for Augmented Knowledge Synthesis]]
-- [[Discourse graphs at the Tinderbox meetup]]
-- [[Toulmin's Structure of Arguments]]
-- [[Formality Considered Harmful]]
+- [[Discourse Graphs for Augmented Knowledge Synthesis (joelchan.me)|Discourse Graphs for Augmented Knowledge Synthesis]]
+- [[Discourse graphs at the Tinderbox meetup (forum.eastgate.com)|Discourse graphs at the Tinderbox meetup]]
+- [[Toulmin's Structure of Arguments (ics.uci.edu)|Toulmin's Structure of Arguments]]
+- [[Formality Considered Harmful (people.engr.tamu.edu)|Formality Considered Harmful]]

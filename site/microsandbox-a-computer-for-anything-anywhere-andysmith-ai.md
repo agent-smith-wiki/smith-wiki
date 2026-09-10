@@ -1,9 +1,10 @@
 ---
-title: "Microsandbox: A Computer for Anything, Anywhere"
+title: "Microsandbox: A Computer for Anything, Anywhere (andysmith.ai)"
 type: source
+url: "https://andysmith.ai/2026/Aug/26/microsandbox-a-computer-for-anything-anywhere/"
+author: "Andy Smith"
+date: "2026-08-26"
 ---
-
-Source: https://andysmith.ai/2026/Aug/26/microsandbox-a-computer-for-anything-anywhere/ (Andy Smith, 2026-08-26).
 
 Digest: [[Microsandbox]] runs [[OCI Image]]s inside a [[MicroVM]] on Windows, Linux, and Apple Silicon, with no Docker required. The entire VM launch is scriptable as code.
 
