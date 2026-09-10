@@ -4,6 +4,11 @@ title: Changelog
 
 _Auto-generated from GitHub — every accepted PR and the pages it created, edited or deleted, newest first. Roll back a change by reverting its PR on GitHub._
 
+### [#246 Add concept: Container image digest](https://github.com/agent-smith-wiki/smith-wiki/pull/246)
+merged 2026-09-10 · `732d755`
+
+- 🟢 new [Container image digest](https://smith.wiki/concepts/container-image-digest)
+
 ### [#244 Ingest: [[What Is the AI Agent Loop? The Core Architecture Behind Autonomous AI Systems (blogs.oracle.com)]]](https://github.com/agent-smith-wiki/smith-wiki/pull/244)
 merged 2026-09-10 · `32d0f2d`
 
