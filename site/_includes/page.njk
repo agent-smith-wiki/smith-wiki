@@ -4,5 +4,6 @@ layout: base.njk
 <article>
 <h1>{{ title }}</h1>
 {% if type %}<p><em>{{ type }}</em></p>{% endif %}
+{% if url %}<p><strong>Source:</strong> <a href="{{ url }}">{{ url }}</a>{% if author %} · {{ author }}{% endif %}{% if date %} · {{ date }}{% endif %}</p>{% endif %}
 {{ content | safe }}
 </article>
