@@ -4,6 +4,11 @@ title: Changelog
 
 _Auto-generated from GitHub — every accepted PR and the pages it created, edited or deleted, newest first. Roll back a change by reverting its PR on GitHub._
 
+### [#248 Add concept: UTM](https://github.com/agent-smith-wiki/smith-wiki/pull/248)
+merged 2026-09-10 · `4f0dc54`
+
+- 🟢 new [UTM](https://smith.wiki/concepts/utm)
+
 ### [#246 Add concept: Container image digest](https://github.com/agent-smith-wiki/smith-wiki/pull/246)
 merged 2026-09-10 · `732d755`
 
