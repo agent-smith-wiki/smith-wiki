@@ -38,7 +38,7 @@ Does adding a separate planning stage pay for itself in fewer LLM calls and lowe
 - ReAct (Yao et al., 2022) — https://arxiv.org/pdf/2210.03629
 - Anthropic, Building effective agents — [[Building Effective Agents (anthropic.com)]]
 - Anthropic, How we built our multi-agent research system — https://www.anthropic.com/engineering/multi-agent-research-system
-- Anthropic, Model Context Protocol — https://www.anthropic.com/news/model-context-protocol
+- Anthropic, Model Context Protocol — [[Introducing the Model Context Protocol (anthropic.com)]]
 - OpenAI, A practical guide to building agents — https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf
 - LangChain LLMCompiler (Kim et al., ICML 2024) — https://arxiv.org/abs/2312.04511
 - Microsoft Magentic-One — https://arxiv.org/abs/2411.04468

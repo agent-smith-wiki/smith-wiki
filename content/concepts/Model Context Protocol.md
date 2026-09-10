@@ -10,4 +10,4 @@ tags: [protocol, ai, llm, interoperability]
 ## Sources
 
 - https://modelcontextprotocol.io/specification/2025-06-18
-- https://www.anthropic.com/news/model-context-protocol
+- [[Introducing the Model Context Protocol (anthropic.com)]]

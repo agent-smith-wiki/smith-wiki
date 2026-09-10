@@ -42,7 +42,7 @@ Success is not the most sophisticated system but the *right* system: start with 
 - https://strandsagents.com/latest/
 - https://rivet.ironcladapp.com/
 - https://www.vellum.ai/
-- https://www.anthropic.com/news/model-context-protocol
+- [[Introducing the Model Context Protocol (anthropic.com)]]
 - https://modelcontextprotocol.io/tutorials/building-a-client
 - https://www.anthropic.com/research/swe-bench-sonnet
 - https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo
