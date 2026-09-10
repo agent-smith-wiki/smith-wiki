@@ -4,6 +4,11 @@ title: Changelog
 
 _Auto-generated from GitHub — every accepted PR and the pages it created, edited or deleted, newest first. Roll back a change by reverting its PR on GitHub._
 
+### [#251 Add concept: secrets management](https://github.com/agent-smith-wiki/smith-wiki/pull/251)
+merged 2026-09-10 · `d149078`
+
+- 🟢 new [Secrets management](https://smith.wiki/concepts/secrets-management)
+
 ### [#250 Add concept: Experience lake](https://github.com/agent-smith-wiki/smith-wiki/pull/250)
 merged 2026-09-10 · `aac3f34`
 
