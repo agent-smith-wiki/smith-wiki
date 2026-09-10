@@ -21,8 +21,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-        with:
-          fetch-depth: 0 # fetch all history for git-based created/modified dates
 
       - name: Setup Node
         uses: actions/setup-node@v6
@@ -37,26 +35,15 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Cache Quartz plugins
-        uses: actions/cache@v5
-        with:
-          path: .quartz/plugins
-          key: ${{ runner.os }}-plugins-${{ hashFiles('quartz.lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-plugins-
-
       - run: npm install
 
-      - name: Install Quartz plugins
-        run: npx quartz plugin install
-
-      - name: Build Quartz
-        run: npx quartz build
+      - name: Build (Eleventy)
+        run: npx @11ty/eleventy
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: public
+          path: _site
 
   deploy:
     needs: build

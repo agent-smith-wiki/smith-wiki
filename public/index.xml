@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Agent Smith Wiki</title>
+      <link>https://smith.wiki</link>
+      <description>Last 10 notes on Agent Smith Wiki</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>concepts</title>
+    <link>https://smith.wiki/concepts/</link>
+    <guid>https://smith.wiki/concepts/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 05:35:07 GMT</pubDate>
+  </item><item>
+    <title>aige.eu</title>
+    <link>https://smith.wiki/references/aige.eu/</link>
+    <guid>https://smith.wiki/references/aige.eu/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 05:35:07 GMT</pubDate>
+  </item><item>
+    <title>references</title>
+    <link>https://smith.wiki/references/</link>
+    <guid>https://smith.wiki/references/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 05:35:07 GMT</pubDate>
+  </item><item>
+    <title>andysmith.ai</title>
+    <link>https://smith.wiki/references/andysmith.ai/</link>
+    <guid>https://smith.wiki/references/andysmith.ai/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 05:35:07 GMT</pubDate>
+  </item><item>
+    <title>blogs.oracle.com</title>
+    <link>https://smith.wiki/references/blogs.oracle.com/</link>
+    <guid>https://smith.wiki/references/blogs.oracle.com/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 05:35:07 GMT</pubDate>
+  </item><item>
+    <title>docs.cloud.google.com</title>
+    <link>https://smith.wiki/references/docs.cloud.google.com/</link>
+    <guid>https://smith.wiki/references/docs.cloud.google.com/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 05:35:07 GMT</pubDate>
+  </item><item>
+    <title>example.com</title>
+    <link>https://smith.wiki/references/example.com/</link>
+    <guid>https://smith.wiki/references/example.com/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 05:35:07 GMT</pubDate>
+  </item><item>
+    <title>github.com</title>
+    <link>https://smith.wiki/references/github.com/</link>
+    <guid>https://smith.wiki/references/github.com/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 05:35:07 GMT</pubDate>
+  </item><item>
+    <title>mac.getutm.app</title>
+    <link>https://smith.wiki/references/mac.getutm.app/</link>
+    <guid>https://smith.wiki/references/mac.getutm.app/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 05:35:07 GMT</pubDate>
+  </item><item>
+    <title>reproducible-builds.org</title>
+    <link>https://smith.wiki/references/reproducible-builds.org/</link>
+    <guid>https://smith.wiki/references/reproducible-builds.org/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 05:35:07 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
