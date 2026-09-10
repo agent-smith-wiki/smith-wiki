@@ -4,6 +4,11 @@ title: Changelog
 
 _Auto-generated from GitHub — every accepted PR and the pages it created, edited or deleted, newest first. Roll back a change by reverting its PR on GitHub._
 
+### [#237 Add concept: AI agents](https://github.com/agent-smith-wiki/smith-wiki/pull/237)
+merged 2026-09-10 · `1872e62`
+
+- 🟢 new [AI agents](https://smith.wiki/concepts/ai-agents)
+
 ### [#236 Add concept: Software provenance](https://github.com/agent-smith-wiki/smith-wiki/pull/236)
 merged 2026-09-10 · `c4f79eb`
 
