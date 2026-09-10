@@ -4,6 +4,11 @@ title: Changelog
 
 _Auto-generated from GitHub — every accepted PR and the pages it created, edited or deleted, newest first. Roll back a change by reverting its PR on GitHub._
 
+### [#266 Ingest: https://www.anthropic.com/news/model-context-protocol](https://github.com/agent-smith-wiki/smith-wiki/pull/266)
+merged 2026-09-10 · `b4759ab`
+
+- 🟢 new [Introducing the Model Context Protocol (anthropic.com)](https://smith.wiki/references/anthropic.com/introducing-the-model-context-protocol-(anthropic.com))
+
 ### [#264 Add concept: Model Context Protocol](https://github.com/agent-smith-wiki/smith-wiki/pull/264)
 merged 2026-09-10 · `ce7f753`
 
