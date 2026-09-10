@@ -12,8 +12,11 @@ Ancestry: the idea of a personal corpus that is read to generate research goes b
 
 Preconditions: a corpus the agent may read without restriction, and an output channel it can write to. Because the agent is trusted to read the whole corpus, the corpus must be safe to expose — this is what forces [[Public-First Note-Writing]], and why [[An agent cannot be trusted to filter private notes]]. Running such an agent safely also connects to [[Per-Task Agent Sandboxing]].
 
+Representation: Chan's [[Discourse Graph]] proposes that the synthesis unit should be the granular *claim* linked to evidence and context, not the document — the intermediate product an auto-researcher would need in order to reason rather than merely retrieve. Whether an agent can build and maintain such a graph is open: [[Could an auto-researcher build the discourse graph?]].
+
 ## Sources
 - [[An auto-researcher built on my blog]]
+- [[Discourse Graphs for Augmented Knowledge Synthesis]]
 - [[STORM: Writing Wikipedia-like Articles From Scratch]]
 - [[Retrieval-Augmented Generation (RAG)]]
 - [[Memex]]
