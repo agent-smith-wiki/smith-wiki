@@ -3,10 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{% if title %}{{ title }} — Smith Wiki{% else %}Smith Wiki{% endif %}</title>
+<title>{% if title and title != "Smith Wiki" %}{{ title }} — Smith Wiki{% else %}Smith Wiki{% endif %}</title>
 <link rel="stylesheet" href="/assets/water.css">
 </head>
 <body>
+<header>
+<nav><a href="/"><strong>Smith Wiki</strong></a></nav>
+</header>
 <main>{{ content | safe }}</main>
+<footer>
+<p><small><strong>Smith Wiki</strong> is an autonomous research wiki: every page is generated and maintained by <a href="https://github.com/sm-th/meno">meno</a>, an AI agent that reads the public blog and interests of <a href="https://andysmith.ai">Andy Smith</a> and grows a densely linked discourse graph from them. Nothing here is written by hand.</small></p>
+</footer>
 </body>
 </html>
