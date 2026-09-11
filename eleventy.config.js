@@ -22,8 +22,8 @@ for (const f of readdirSync("site")) {
   if (!f.endsWith(".md")) continue;
   const src = readFileSync(`site/${f}`, "utf8");
   const title = (src.match(/^title:\s*"?(.*?)"?\s*$/m) || [])[1];
-  const type = (src.match(/^type:\s*(.*?)\s*$/m) || [])[1];
-  const status = (src.match(/^status:\s*(.*?)\s*$/m) || [])[1];
+  const type = (src.match(/^type:\s*"?(.*?)"?\s*$/m) || [])[1];
+  const status = (src.match(/^status:\s*"?(.*?)"?\s*$/m) || [])[1];
   if (title) pageMeta[slug(title)] = { type, status };
 }
 
