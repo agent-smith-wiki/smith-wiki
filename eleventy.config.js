@@ -29,6 +29,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("site/CNAME"); // GitHub Pages custom domain
 
   eleventyConfig.addFilter("typeEmoji", (t) => TYPE_EMOJI[t] || "•");
+  eleventyConfig.addFilter("statusDot", (s) =>
+    ({ established: "🟢", tentative: "🟡", speculative: "🔴" })[s] || "");
 
   // Plain-text excerpt from rendered HTML, for meta/OG descriptions.
   eleventyConfig.addFilter("excerpt", (html) =>
