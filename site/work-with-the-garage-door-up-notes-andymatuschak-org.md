@@ -4,6 +4,8 @@ type: source
 url: "https://notes.andymatuschak.org/zCMhncA1iSE74MKKYQS5PBZ"
 author: "Andy Matuschak"
 tags: ["note-taking", "privacy", "local-first"]
+by: "Andy Matuschak"
+status: "tentative"
 ---
 
 Andy Matuschak's working note, riffing on a passage from Robin Sloan, argues for communicating in public as you work rather than only announcing finished results: screenshot Saturdays, thinking out loud about the problems you are pondering, showing the ways a project does not work. Sloan's image is a physical workshop whose door is propped open — 'I am here, working' — in contrast to social media, where if you stop speaking you disappear.

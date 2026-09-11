@@ -1,6 +1,8 @@
 ---
 title: "Per-Task Agent Sandboxing"
 type: concept
+by: "Andy Smith"
+status: "tentative"
 ---
 
 The pattern of giving each AI agent — or even each individual task — its own disposable machine: build an [[OCI Image]], run the agent inside it, complete the task, kill the machine.

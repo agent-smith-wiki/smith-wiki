@@ -5,6 +5,8 @@ url: "https://www.ics.uci.edu/~alspaugh/cls/shr/argument.html"
 author: "after Stephen Toulmin (The Uses of Argument, 1958)"
 date: "1958"
 tags: ["argumentation", "logic", "discourse-graphs"]
+by: "after Stephen Toulmin (The Uses of Argument, 1958)"
+status: "tentative"
 ---
 
 A reference digest of the [[Toulmin Argument Model]] (Toulmin 1958; Toulmin, Rieke & Janik 1984), the argumentative vocabulary behind discourse graphs.

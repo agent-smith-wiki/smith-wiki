@@ -5,6 +5,8 @@ url: "https://huggingface.co/blog/ServiceNow/mosaicleaks"
 author: "Alexander Gurung, Spandana Gella, Alexandre Drouin, Issam H. Laradji, Perouz Taslakian, Rafael Pardinas"
 date: "2026-06-18"
 tags: ["privacy", "ai-agents", "research", "retrieval-augmented-generation"]
+by: "Alexander Gurung, Spandana Gella, Alexandre Drouin, Issam H. Laradji, Perouz Taslakian, Rafael Pardinas"
+status: "tentative"
 ---
 
 MosaicLeaks studies a privacy risk specific to deep-research agents: when an agent combines private local documents with external tools such as web retrieval, its outward queries can leak the private material. The leakage channel is the cumulative web-query log — the adversary never sees the documents or the reasoning. This is the [[Mosaic effect (en.wikipedia.org)|Mosaic effect]]: individually benign queries become revealing in aggregate.

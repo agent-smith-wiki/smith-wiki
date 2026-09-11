@@ -5,6 +5,8 @@ url: "http://joelchan.me/assets/pdf/Discourse_Graphs_for_Augmented_Knowledge_Syn
 author: "Joel Chan"
 date: "2021"
 tags: ["discourse-graphs", "knowledge-synthesis", "scholarly-communication"]
+by: "Joel Chan"
+status: "tentative"
 ---
 
 Chan's position paper defining a [[Discourse Graph]] as an information model representing scientific discourse as granular knowledge *claims* linked to supporting evidence and context in a graph.

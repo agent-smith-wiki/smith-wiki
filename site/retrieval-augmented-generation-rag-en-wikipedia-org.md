@@ -4,6 +4,8 @@ type: source
 url: "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
 author: "Wikipedia contributors"
 tags: ["retrieval-augmented-generation", "ai-agents"]
+by: "Wikipedia contributors"
+status: "established"
 ---
 
 Retrieval-augmented generation (RAG) combines a parametric language model with a non-parametric external memory accessed by retrieval at inference time — first proposed by Lewis et al. (2020). Documents (or a knowledge base) are converted into embeddings stored in a vector database; given a query, a retriever selects the most relevant documents and they are fed into the LLM prompt alongside the question, so the model responds over both the retrieved context and its training knowledge.

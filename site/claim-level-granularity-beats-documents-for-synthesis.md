@@ -2,6 +2,8 @@
 title: "Claim-level granularity beats documents for synthesis"
 type: claim
 tags: ["discourse-graphs", "knowledge-synthesis"]
+by: "Joel Chan"
+status: "tentative"
 ---
 
 Position (Chan): the unit of knowledge-work should be the *claim*, not the paper or the annotation. Claims linked to their supporting evidence and context let a researcher compare, reconcile and recombine findings directly; document buckets and citation networks do not expose that level — so they cannot answer the questions synthesis actually poses (which theories are supported, where predictions conflict, what lacks direct evidence).

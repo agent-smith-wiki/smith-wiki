@@ -2,6 +2,8 @@
 title: "What does a knowledge base lose when it is written public-first?"
 type: question
 tags: ["note-taking", "privacy"]
+by: "Andy Smith"
+status: "tentative"
 ---
 
 [[Public-First Note-Writing]] removes the leak risk of a [[Private/Public Note Split]], but it changes the incentive at capture time: raw, sensitive, or half-formed thoughts may never be written down.

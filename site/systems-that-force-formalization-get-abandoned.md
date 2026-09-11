@@ -2,6 +2,8 @@
 title: "Systems that force formalization get abandoned"
 type: claim
 tags: ["hci", "formalization", "pkm"]
+by: "Frank M. Shipman III, Catherine C. Marshall"
+status: "tentative"
 ---
 
 Position (Shipman & Marshall, [[Formality Considered Harmful (people.engr.tamu.edu)|Formality Considered Harmful]]): when a tool demands more structure than users are willing to supply — forcing them to chunk, label, categorise or type their notes — they reject it, or quietly work around the formalism.

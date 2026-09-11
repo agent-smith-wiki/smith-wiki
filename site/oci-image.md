@@ -1,6 +1,8 @@
 ---
 title: "OCI Image"
 type: concept
+by: "Andy Smith"
+status: "tentative"
 ---
 
 The standardized container image format (Open Container Initiative).

@@ -1,6 +1,8 @@
 ---
 title: "Immutable agent images are worth the rebuild tax"
 type: claim
+by: "Andy Smith"
+status: "tentative"
 ---
 
 Position: for [[Per-Task Agent Sandboxing]], a frozen image ([[Immutable Agent Environments]]) is worth the rebuild cost. Reproducibility and isolation are the whole point; the rebuild is slow only when it happens, and within a settled workflow it happens rarely.
