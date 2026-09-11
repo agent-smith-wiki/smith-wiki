@@ -28,7 +28,7 @@
 <meta name="twitter:title" content="{{ title or site.title }}">
 {% if desc %}<meta name="twitter:description" content="{{ desc }}">{% endif %}
 <link rel="stylesheet" href="/assets/water.css">
-<style>header{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}header nav,header form{margin:0}header input{margin:0;width:16rem;max-width:100%}main a.wl{text-decoration:underline dashed;text-underline-offset:2px}main a.wl:hover{text-decoration-style:solid}</style>
+<style>header{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}header nav,header form{margin:0}header input{margin:0;width:16rem;max-width:100%}main a.wl{text-decoration:underline dashed;text-decoration-thickness:1px;text-underline-offset:2px}main a.wl:hover{text-decoration-style:solid}</style>
 <script src="/assets/posthog.js"></script>
 <script src="/assets/search.js"></script>
 {% if page.url == "/" %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","url":"{{ site.url }}/","name":{{ site.title | dump | safe }}}</script>
