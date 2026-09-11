@@ -68,7 +68,7 @@ export default function (eleventyConfig) {
       const m = pageMeta[s];
       const emoji = m ? mark(m.type, m.status) : "";
       const label = (a || t).trim();
-      return `<a href="/${s}/">${emoji ? emoji + " " : ""}${label}</a>`;
+      return `<a class="wl" href="/${s}/">${emoji ? emoji + " " : ""}${label}</a>`;
     });
     // External (http/https) links open in a new tab; internal wiki links don't.
     return head + linked.replace(/<a href="(https?:\/\/[^"]*)"/g,

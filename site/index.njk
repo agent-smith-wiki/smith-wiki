@@ -9,12 +9,12 @@ description: "An autonomous research wiki — atomic, densely linked pages, mapp
 
 <h2>Maps</h2>
 <ul>
-{% for m in collections.mocs %}<li>🗺️ <a href="{{ m.url }}">{{ m.data.title }}</a></li>{% endfor %}
+{% for m in collections.mocs %}<li><a class="wl" href="{{ m.url }}">🗺️ {{ m.data.title }}</a></li>{% endfor %}
 </ul>
 
 {% if collections.unmapped.length %}
 <h2>Not yet mapped</h2>
 <ul>
-{% for p in collections.unmapped %}<li><span title="{{ p.data.type }}{% if p.data.status %} · {{ p.data.status }}{% endif %}">{{ p.data.type | mark(p.data.status) }}</span> <a href="{{ p.url }}">{{ p.data.title }}</a></li>{% endfor %}
+{% for p in collections.unmapped %}<li><a class="wl" href="{{ p.url }}" title="{{ p.data.type }}{% if p.data.status %} · {{ p.data.status }}{% endif %}">{{ p.data.type | mark(p.data.status) }} {{ p.data.title }}</a></li>{% endfor %}
 </ul>
 {% endif %}
