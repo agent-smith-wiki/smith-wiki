@@ -1,6 +1,7 @@
 // smith.wiki — 11ty, mirroring the blog. Content = flat discourse-graph Markdown
 // pages under site/ (one idea per file), written by meno. No whole-corpus lists
-// (they go kilometer-long at scale) — navigation is MoC + per-page [[links]].
+// (they go kilometer-long at scale) — the home page is Maps of Content (🗺️) plus
+// any page not yet linked from a MoC; navigation is MoC + per-page [[links]].
 // Deployed to GitHub Pages by .github/workflows/deploy.yaml on push to main.
 import { readdirSync, readFileSync } from "node:fs";
 
@@ -9,15 +10,17 @@ const slug = (s) =>
 
 // Page type -> emoji. A :claim's marker is instead its epistemic-status dot — a
 // claim is the only node with a truth-status — so claims show 🟢/🟡/🔴, not 💬.
-const TYPE_EMOJI = { concept: "💡", source: "📄", question: "❓", claim: "💬", research: "🔬" };
+const TYPE_EMOJI = { concept: "💡", source: "📄", question: "❓", claim: "💬", research: "🔬", tool: "🔧", moc: "🗺️" };
 const STATUS_DOT = { established: "🟢", tentative: "🟡", speculative: "🔴" };
 // Marker before a title/link: a claim shows its status dot; everything else its type emoji.
 const mark = (type, status) =>
   type === "claim" ? (STATUS_DOT[status] || STATUS_DOT.tentative) : (TYPE_EMOJI[type] || "•");
 
 // slug -> {type, status} from frontmatter at build time, so [[wikilinks]] can show
-// the target's marker (a claim's status dot) before you click.
+// the target's marker before you click. Also collect every slug a :moc page links,
+// so the home page can list what is not yet mapped into any MoC.
 const pageMeta = {};
+const mocLinked = new Set();
 for (const f of readdirSync("site")) {
   if (!f.endsWith(".md")) continue;
   const src = readFileSync(`site/${f}`, "utf8");
@@ -25,6 +28,10 @@ for (const f of readdirSync("site")) {
   const type = (src.match(/^type:\s*"?(.*?)"?\s*$/m) || [])[1];
   const status = (src.match(/^status:\s*"?(.*?)"?\s*$/m) || [])[1];
   if (title) pageMeta[slug(title)] = { type, status };
+  if (type === "moc") {
+    const body = src.replace(/^---[\s\S]*?\n---\n?/, "");
+    for (const m of body.matchAll(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g)) mocLinked.add(slug(m[1]));
+  }
 }
 
 export default function (eleventyConfig) {
@@ -68,9 +75,17 @@ export default function (eleventyConfig) {
       '<a target="_blank" rel="noopener" href="$1"');
   });
 
-  // All KB pages — for the index now, a MoC generator later.
-  eleventyConfig.addCollection("kb", (api) =>
+  // Home page = Maps of Content, then any idea/tool not yet linked from a MoC.
+  // Sources are provenance (reached via the pages that cite them), not navigation,
+  // so they never appear on the home page.
+  eleventyConfig.addCollection("mocs", (api) =>
     api.getFilteredByGlob("site/*.md")
+      .filter((p) => p.data.type === "moc")
+      .sort((a, b) => (a.data.title || "").localeCompare(b.data.title || "")));
+  eleventyConfig.addCollection("unmapped", (api) =>
+    api.getFilteredByGlob("site/*.md")
+      .filter((p) => p.data.type !== "moc" && p.data.type !== "source"
+        && !mocLinked.has(slug(p.data.title || "")))
       .sort((a, b) => (a.data.title || "").localeCompare(b.data.title || "")));
 
   return {
