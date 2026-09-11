@@ -3,7 +3,7 @@ title: "An agent cannot be trusted to filter private notes"
 type: claim
 tags: ["privacy", "ai-agents"]
 by: "Andy Smith"
-status: "tentative"
+status: "established"
 ---
 
 Position: do not rely on an agent to decide which notes are private. Per [[An auto-researcher built on my blog (andysmith.ai)|An auto-researcher built on my blog]], a [[Private/Public Note Split]] enforced by the agent is 'pretty much impossible' — something private will leak eventually.
