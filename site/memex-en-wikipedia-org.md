@@ -5,7 +5,6 @@ url: "https://en.wikipedia.org/wiki/Memex"
 author: "Wikipedia contributors"
 tags: ["note-taking", "research", "hypertext"]
 by: "Wikipedia contributors"
-status: "established"
 ---
 
 A **memex** (portmanteau of "memory" and "index") is a hypothetical electro-mechanical device for interacting with microform documents, described by Vannevar Bush in his 1945 article "As We May Think". Bush envisioned it as a device in which an individual stores all their books, records and communications, "mechanized so that it may be consulted with exceeding speed and flexibility" — "a sort of mechanized private file and library", "an enlarged intimate supplement to [the owner's] memory".

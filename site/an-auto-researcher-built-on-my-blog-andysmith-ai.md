@@ -6,7 +6,6 @@ author: "Andy Smith"
 date: "2026-09-06"
 tags: ["ai-agents", "research", "note-taking", "local-first", "privacy"]
 by: "Andy Smith"
-status: "tentative"
 ---
 
 Digest: Andy Smith announces [[Smith Wiki]] — he finally bought the domain `smith.wiki` (two years, ~$100) to host the output of an [[Auto-Researcher]]: an agent that builds research out of his own accumulated notes.

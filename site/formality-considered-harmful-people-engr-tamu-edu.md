@@ -6,7 +6,6 @@ author: "Frank M. Shipman III, Catherine C. Marshall"
 date: "1999"
 tags: ["hci", "formalization", "hypertext", "argumentation"]
 by: "Frank M. Shipman III, Catherine C. Marshall"
-status: "tentative"
 ---
 
 Shipman & Marshall's paper (Computer Supported Cooperative Work 8(4), 1999) arguing that systems for intellectual work fail when they demand more formalization than users will tolerate.

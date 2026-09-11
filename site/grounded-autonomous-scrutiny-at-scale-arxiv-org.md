@@ -6,7 +6,6 @@ author: "Haonan Huang"
 date: "2026"
 tags: ["ai-agents", "research"]
 by: "Haonan Huang"
-status: "established"
 ---
 
 arXiv paper (2026; camera-ready accepted at the ICML 2026 AI for Science Workshop). It asks whether an autonomous LLM agent can perform *grounded scrutiny* of published computational physics: read a paper, reproduce it from scratch, and surface methodological concerns from execution. The premise is that real computational physics differs from machine-learning sandboxes because experiments are first-principles calculations against re-runnable physical ground truth, and meaningful new work almost always builds on a key existing paper.

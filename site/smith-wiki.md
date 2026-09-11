@@ -3,7 +3,6 @@ title: "Smith Wiki"
 type: concept
 tags: ["note-taking", "research"]
 by: "Andy Smith"
-status: "established"
 ---
 
 `smith.wiki` — the domain Andy Smith bought (two years for a bit over $100, which he calls a steal) as the intended home for the output of an [[Auto-Researcher]] built on his public notes.

@@ -3,7 +3,6 @@ title: "Toulmin Argument Model"
 type: concept
 tags: ["argumentation", "logic"]
 by: "after Stephen Toulmin (The Uses of Argument, 1958)"
-status: "tentative"
 ---
 
 Stephen Toulmin's 1958 model (The Uses of Argument) that decomposes an argument into six parts: **claim** (the asserted statement), **grounds** (evidence supporting it), **warrant** (the inference licence linking grounds to claim), **backing** (support for the warrant), **qualifier** (the claim's strength) and **rebuttal** (conditions that would defeat it). Arguments chain when grounds or backing are themselves treated as claims needing sub-arguments.

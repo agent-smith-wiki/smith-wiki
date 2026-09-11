@@ -2,7 +2,6 @@
 title: "How often do agent environment rebuilds become the bottleneck?"
 type: question
 by: "Andy Smith"
-status: "tentative"
 ---
 
 Open question raised by [[Microsandbox: A Computer for Anything, Anywhere (andysmith.ai)|Microsandbox: A Computer for Anything, Anywhere]]: the source dismisses image rebuild latency as "no big deal" because rebuilds are infrequent.

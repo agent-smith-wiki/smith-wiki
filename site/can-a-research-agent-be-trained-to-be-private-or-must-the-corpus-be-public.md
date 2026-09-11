@@ -3,7 +3,6 @@ title: "Can a research agent be trained to be private, or must the corpus be pub
 type: question
 tags: ["privacy", "ai-agents", "research"]
 by: "Andy Smith"
-status: "tentative"
 ---
 
 Andy Smith's answer to private/public leakage is structural: keep private material out of the agent's corpus entirely and write public-first — see [[An agent cannot be trusted to filter private notes]] and [[Public-First Note-Writing]].

@@ -3,7 +3,6 @@ title: "Incremental Formalization"
 type: concept
 tags: ["hci", "formalization", "note-taking"]
 by: "Frank M. Shipman III, Catherine C. Marshall"
-status: "tentative"
 ---
 
 A design strategy responding to [[Formality Considered Harmful (people.engr.tamu.edu)|Formality Considered Harmful]]: let users enter information informally first, and defer the addition of structure (chunking, linking, labelling, typing) until later in the task, when it is useful and the user's understanding has stabilised.

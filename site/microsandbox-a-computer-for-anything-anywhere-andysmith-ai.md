@@ -5,7 +5,6 @@ url: "https://andysmith.ai/2026/Aug/26/microsandbox-a-computer-for-anything-anyw
 author: "Andy Smith"
 date: "2026-08-26"
 by: "Andy Smith"
-status: "tentative"
 ---
 
 Digest: [[Microsandbox]] runs [[OCI Image]]s inside a [[MicroVM]] on Windows, Linux, and Apple Silicon, with no Docker required. The entire VM launch is scriptable as code.

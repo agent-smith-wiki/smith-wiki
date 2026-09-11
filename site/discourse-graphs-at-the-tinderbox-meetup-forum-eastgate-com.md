@@ -6,7 +6,6 @@ author: "satikusala (Tinderbox forum); Joel Chan (presenter)"
 date: "2023-09-16"
 tags: ["discourse-graphs", "knowledge-synthesis", "pkm", "tinderbox"]
 by: "satikusala (Tinderbox forum); Joel Chan (presenter)"
-status: "tentative"
 ---
 
 A Tinderbox Meetup (video, 1h41m) in which Joel Chan (Assistant Prof., University of Maryland) presents his process for [[Knowledge Synthesis]] using [[Discourse Graph]]s — graphs of questions, claims and evidence — built in Roam and Obsidian, with the group discussing how the same process might work in Tinderbox.

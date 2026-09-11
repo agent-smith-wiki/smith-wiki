@@ -6,7 +6,6 @@ author: "Yijia Shao, Yucheng Jiang, Theodore A. Kanell, Peter Xu, Omar Khattab, 
 date: "2024"
 tags: ["ai-agents", "research", "retrieval-augmented-generation"]
 by: "Yijia Shao, Yucheng Jiang, Theodore A. Kanell, Peter Xu, Omar Khattab, Monica Lam"
-status: "established"
 ---
 
 STORM (Synthesis of Topic Outlines through Retrieval and Multi-perspective Question Asking) applies LLMs to write grounded, organized long-form articles from scratch at Wikipedia-like breadth and depth (NAACL 2024). It models the pre-writing stage in three steps: (1) discover diverse perspectives on the topic, (2) simulate conversations in which writers with different perspectives question a topic expert grounded on trusted Internet sources, (3) curate the collected material into an outline.

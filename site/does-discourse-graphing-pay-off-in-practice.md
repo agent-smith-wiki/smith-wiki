@@ -3,7 +3,6 @@ title: "Does discourse graphing pay off in practice?"
 type: question
 tags: ["discourse-graphs", "knowledge-synthesis", "open-question"]
 by: "Joel Chan"
-status: "tentative"
 ---
 
 Chan is explicit that the benefits of [[Discourse Graph]]s are *hypothesised*, not shown: earlier claim-level deployments were never empirically evaluated, and researchers overwhelmingly keep using document-centric tools (Zotero/Mendeley, Word/Excel). Meanwhile [[Formality Considered Harmful (people.engr.tamu.edu)|Formality Considered Harmful]] documents decades of users rejecting imposed structure, and specifically that Toulmin/IBIS-style argument schemes are hard to apply consistently.

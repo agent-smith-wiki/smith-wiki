@@ -2,7 +2,6 @@
 title: "Immutable Agent Environments"
 type: concept
 by: "Andy Smith"
-status: "tentative"
 ---
 
 Environments defined entirely by a prebuilt [[OCI Image]], so the running system is not mutated ad hoc: any change means rebuilding the image.

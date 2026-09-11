@@ -6,7 +6,6 @@ author: "Wikipedia contributors"
 date: "2025-06-09"
 tags: ["privacy", "security"]
 by: "Wikipedia contributors"
-status: "established"
 ---
 
 The mosaic effect (also mosaic theory) is the principle that aggregating multiple data sources can reveal sensitive or classified information that no individual element would disclose — assembling a picture from tiles that are innocuous alone. It originated in U.S. intelligence and national-security law, where analysts warned that unclassified fragments could combine to compromise operational secrecy, and it now shapes classification policy and FOIA decisions.

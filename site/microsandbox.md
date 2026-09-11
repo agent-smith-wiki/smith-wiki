@@ -2,7 +2,6 @@
 title: "Microsandbox"
 type: concept
 by: "Andy Smith"
-status: "tentative"
 ---
 
 A tool, described at https://microsandbox.dev/, that runs [[OCI Image]]s inside a [[MicroVM]] on Windows, Linux, and Apple Silicon **without requiring Docker**.

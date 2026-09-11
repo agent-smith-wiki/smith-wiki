@@ -3,7 +3,6 @@ title: "Discourse Graph"
 type: concept
 tags: ["discourse-graphs", "knowledge-synthesis", "pkm"]
 by: "Joel Chan"
-status: "tentative"
 ---
 
 An information model representing scientific/argumentative discourse as a graph of granular **questions, claims and evidence**: knowledge *claims* are the primary unit, and rather than being filed or categorised, they are *linked* into relationships (supports, opposes, qualifies) with supporting evidence and contextual detail (measures, settings, authors, replications).

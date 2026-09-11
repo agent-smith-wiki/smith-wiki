@@ -3,7 +3,6 @@ title: "Could an auto-researcher build the discourse graph?"
 type: question
 tags: ["discourse-graphs", "ai-agents", "open-question"]
 by: "Joel Chan"
-status: "tentative"
 ---
 
 The KB's [[Auto-Researcher]] reads an author's public corpus and writes new integrative output (to a [[Smith Wiki]]). A [[Discourse Graph]] is a representation of exactly the intermediate product synthesis requires — questions, claims, evidence and their relations.

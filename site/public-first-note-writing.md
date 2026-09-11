@@ -3,7 +3,6 @@ title: "Public-First Note-Writing"
 type: concept
 tags: ["note-taking", "privacy", "local-first"]
 by: "Andy Smith"
-status: "tentative"
 ---
 
 Response to the [[Private/Public Note Split]]: only write notes you would be happy to publish, so the entire corpus is safe for an [[Auto-Researcher]] to read. Privacy is enforced by the human at authorship time, not by a filter downstream.

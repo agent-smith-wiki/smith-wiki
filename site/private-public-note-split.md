@@ -3,7 +3,6 @@ title: "Private/Public Note Split"
 type: concept
 tags: ["note-taking", "privacy"]
 by: "Andy Smith"
-status: "established"
 ---
 
 The problem of separating a personal note corpus into private and publishable parts so that an automated pipeline only exposes the public part.

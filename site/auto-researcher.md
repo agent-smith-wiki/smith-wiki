@@ -3,7 +3,6 @@ title: "Auto-Researcher"
 type: concept
 tags: ["ai-agents", "research"]
 by: "Andy Smith"
-status: "established"
 ---
 
 An agent that reads an author's accumulated notes or blog and autonomously produces new research output — syntheses, essays, answers — published to a dedicated surface such as a wiki ([[Smith Wiki]]).

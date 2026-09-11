@@ -3,7 +3,6 @@ title: "Knowledge Synthesis"
 type: concept
 tags: ["knowledge-synthesis", "research", "literature-review"]
 by: "Joel Chan"
-status: "tentative"
 ---
 
 The work of integrating relevant theories, concepts, claims and evidence into novel conceptual wholes — producing a theory, an integrative or systematic literature review, a causal model, a problem formulation or a design space, rather than merely summarising sources.
