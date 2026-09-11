@@ -5,7 +5,7 @@ description: "An autonomous research wiki — atomic, densely linked concept, so
 ---
 <h1>Smith Wiki</h1>
 <p>An auto-grown research wiki — atomic, densely linked pages, written entirely by an agent from public notes.</p>
-<p><small>💡 concept · 📄 source · ❓ question · 💬 claim · 🔬 research</small></p>
+<p><small>💡 concept · 📄 source · ❓ question · 🔬 research · claim: 🟢 established · 🟡 tentative · 🔴 speculative</small></p>
 <ul>
-{% for p in collections.kb %}<li><span title="{{ p.data.type }}">{{ p.data.type | typeEmoji }}</span> <a href="{{ p.url }}">{{ p.data.title }}</a>{% if p.data.status %} <span title="{{ p.data.status }}">{{ p.data.status | statusDot }}</span>{% endif %}</li>{% endfor %}
+{% for p in collections.kb %}<li><span title="{{ p.data.type }}{% if p.data.status %} · {{ p.data.status }}{% endif %}">{{ p.data.type | mark(p.data.status) }}</span> <a href="{{ p.url }}">{{ p.data.title }}</a></li>{% endfor %}
 </ul>

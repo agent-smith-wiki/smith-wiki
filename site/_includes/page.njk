@@ -2,7 +2,7 @@
 layout: base.njk
 ---
 <article>
-<h1><span title="{{ type }}">{{ type | typeEmoji }}</span> {{ title }}{% if status %} <span title="{{ status }}">{{ status | statusDot }}</span>{% endif %}</h1>
+<h1><span title="{{ type }}{% if status %} · {{ status }}{% endif %}">{{ type | mark(status) }}</span> {{ title }}</h1>
 {% if by and by != "Andy Smith" %}<p><small>Attributed to {{ by }}</small></p>{% endif %}
 {% if url %}<p><strong>Source:</strong> <a href="{{ url }}">{{ url }}</a>{% if author %} · {{ author }}{% endif %}{% if date %} · {{ date }}{% endif %}</p>{% endif %}
 {{ content | safe }}

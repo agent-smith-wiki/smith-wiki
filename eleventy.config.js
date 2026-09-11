@@ -7,18 +7,24 @@ import { readdirSync, readFileSync } from "node:fs";
 const slug = (s) =>
   String(s).toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
-// Page type -> emoji, shown at the start of links and titles.
+// Page type -> emoji. A :claim's marker is instead its epistemic-status dot — a
+// claim is the only node with a truth-status — so claims show 🟢/🟡/🔴, not 💬.
 const TYPE_EMOJI = { concept: "💡", source: "📄", question: "❓", claim: "💬", research: "🔬" };
+const STATUS_DOT = { established: "🟢", tentative: "🟡", speculative: "🔴" };
+// Marker before a title/link: a claim shows its status dot; everything else its type emoji.
+const mark = (type, status) =>
+  type === "claim" ? (STATUS_DOT[status] || STATUS_DOT.tentative) : (TYPE_EMOJI[type] || "•");
 
-// slug -> type, read from page frontmatter at build time, so [[wikilinks]] can
-// prefix the target page's type emoji (see the wikilinks transform below).
-const pageType = {};
+// slug -> {type, status} from frontmatter at build time, so [[wikilinks]] can show
+// the target's marker (a claim's status dot) before you click.
+const pageMeta = {};
 for (const f of readdirSync("site")) {
   if (!f.endsWith(".md")) continue;
   const src = readFileSync(`site/${f}`, "utf8");
   const title = (src.match(/^title:\s*"?(.*?)"?\s*$/m) || [])[1];
   const type = (src.match(/^type:\s*(.*?)\s*$/m) || [])[1];
-  if (title) pageType[slug(title)] = type;
+  const status = (src.match(/^status:\s*(.*?)\s*$/m) || [])[1];
+  if (title) pageMeta[slug(title)] = { type, status };
 }
 
 export default function (eleventyConfig) {
@@ -28,9 +34,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("site/assets");
   eleventyConfig.addPassthroughCopy("site/CNAME"); // GitHub Pages custom domain
 
-  eleventyConfig.addFilter("typeEmoji", (t) => TYPE_EMOJI[t] || "•");
-  eleventyConfig.addFilter("statusDot", (s) =>
-    ({ established: "🟢", tentative: "🟡", speculative: "🔴" })[s] || "");
+  eleventyConfig.addFilter("mark", (type, status) => mark(type, status));
 
   // Plain-text excerpt from rendered HTML, for meta/OG descriptions.
   eleventyConfig.addFilter("excerpt", (html) =>
@@ -54,7 +58,8 @@ export default function (eleventyConfig) {
     const body = cut >= 0 ? content.slice(cut) : content;
     const linked = body.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, t, a) => {
       const s = slug(t);
-      const emoji = TYPE_EMOJI[pageType[s]];
+      const m = pageMeta[s];
+      const emoji = m ? mark(m.type, m.status) : "";
       const label = (a || t).trim();
       return `<a href="/${s}/">${emoji ? emoji + " " : ""}${label}</a>`;
     });
