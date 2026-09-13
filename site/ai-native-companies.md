@@ -12,4 +12,4 @@ Running a company on agents.
 
 **Where the work lives:** [[The log is the workspace]], [[Agent identity is a keypair]], [[Branch-as-channel]].
 
-**Positions:** [[Agents should be team-scoped, not personal]], [[One orchestrator instance can run a whole company]], [[Security is structural, not bolted on]], [[A chat agent is low-value next to one that does the work]], [[Working code beats design docs]].
+**Positions:** [[Agents should be team-scoped, not personal]], [[One orchestrator instance can run a whole company]], [[A living runtime compounds work into code]], [[Security is structural, not bolted on]], [[A chat agent is low-value next to one that does the work]], [[Working code beats design docs]].

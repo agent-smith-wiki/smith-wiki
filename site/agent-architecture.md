@@ -14,6 +14,10 @@ How agents are built and run.
 
 **Invocation & process:** [[Thread subscription]], the [[Supervised loop]], [[Ask-user]], [[Job dispatch]], and [[Deterministic process, stochastic where needed]].
 
+**Runtime & config:** [[Runtime and config split]], with the pipeline kept [[Idempotent effect via receipt|idempotent by receipt]] and each consumer given [[One done-marker per consumer|its own done-marker]].
+
+**Identity & secrets:** [[Reconcile identities from a declaration]], [[Rotate-on-boot secrets]], and the [[Agent orchestrator]] as the sole secret-holder.
+
 **Isolation & runtime:** [[Layered agent isolation]] over [[Per-Task Agent Sandboxing]], [[Immutable Agent Environments]], [[MicroVM]] and [[OCI Image]]; see [[Nested virtualization]] and [[Network-bound secrets]]. Related: [[Immutable agent images are worth the rebuild tax]].
 
 **Open questions:** [[How often do agent environment rebuilds become the bottleneck?]], [[Should agent bodies be isolated as microVMs per task or as Kubernetes pods?]], [[Where should an agent's session live so it survives a disposable body?]], [[Should a session be scoped to a topic or to an agent within a topic?]], [[How do you get network-bound secret guarantees on Kubernetes?]], [[When is a unit autonomous enough to become its own instance?]].
