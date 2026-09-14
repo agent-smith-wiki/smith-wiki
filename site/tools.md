@@ -7,6 +7,7 @@ by: "Andy Smith"
 Named tools and systems in the agent stack.
 
 **Orchestration:** [[Zeno]].
+**Company framework:** [[Reflection.dev]] — the company-as-code layer on top of Zeno.
 **Human + agent workspace:** [[Buzz]].
 **Model access:** [[Manifest]].
 **Sandboxing:** [[Microsandbox]].

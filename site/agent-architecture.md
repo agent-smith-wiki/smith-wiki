@@ -10,9 +10,13 @@ How agents are built and run.
 
 **The boundary:** each agent reaches out only through a [[Per-agent MCP]] whose sole tool is [[Code-mode eval]] against a [[Capability grant]].
 
+**Access & roles:** what an agent may *see* of the shared context is set by [[Role-scoped agent access|its role]], separately from what it may *do*.
+
 **Memory & lifecycle:** [[Per-topic session memory]], [[Two-tier agent memory]], a [[Disposable agent body]], and a [[Self-reaping agent]].
 
 **Invocation & process:** [[Thread subscription]], the [[Supervised loop]], [[Ask-user]], [[Job dispatch]], and [[Deterministic process, stochastic where needed]].
+
+**Self-evolution:** [[Self-evolving agent orchestrator]] can create the next roster of agents itself, within human-set rules.
 
 **Runtime & config:** [[Runtime and config split]], with the pipeline kept [[Idempotent effect via receipt|idempotent by receipt]] and each consumer given [[One done-marker per consumer|its own done-marker]].
 

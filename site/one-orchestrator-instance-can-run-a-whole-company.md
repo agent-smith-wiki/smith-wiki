@@ -10,3 +10,4 @@ A single long-lived [[Agent orchestrator]] can serve many roles and run a whole 
 ## Sources
 - [[Zeno, an always-on orchestrator for ephemeral agents (andysmith.ai)]]
 - [[Zeno]]
+- [[Reflection.dev and Zeno (andysmith.ai)]]
