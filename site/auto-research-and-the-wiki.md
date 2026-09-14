@@ -10,7 +10,9 @@ How this wiki grows itself.
 
 **The method:** [[Knowledge Synthesis]], [[Incremental Formalization]], the [[Discourse Graph]], the [[Toulmin Argument Model]], and [[Claim-level granularity beats documents for synthesis]].
 
-**Writing discipline:** [[Public-First Note-Writing]] and the [[Private/Public Note Split]].
+**Writing discipline:** [[Public-First Note-Writing]], the [[Private/Public Note Split]], and [[Pseudo-public workspace]] for the single private channel.
+
+**Publication & community:** [[Social media strategy (andysmith.ai)|Social media strategy]], [[Channel-differentiated publishing]], [[Full-copy syndication beats curation]], [[The auto-research wiki is a mirror for learning]], [[An agent can represent your research in public discussion]], syndicating from the owned blog via [[POSSE (indieweb.org)|POSSE]].
 
 **Open questions:** [[Could an auto-researcher build the discourse graph?]], [[Does discourse graphing pay off in practice?]], [[What does a knowledge base lose when it is written public-first?]], [[Can a research agent be trained to be private, or must the corpus be public?]].
 
