@@ -8,9 +8,13 @@ Running a company on agents.
 
 **The idea:** an [[AI-native company]] built on the [[AI-native company stack]] — communication, orchestration ([[Agent orchestrator]]), infrastructure ([[nixops]]).
 
-**Company as code:** [[Reflection.dev]] — [[Company as code]], with [[The orchestrator can create agents itself]] and [[Role-gated access to shared context]].
+**Company as code:** [[Reflection.dev]] — [[Company as code]], with [[The orchestrator can create agents itself]], [[Role-gated access to shared context]], and [[Company-as-code wants a homoiconic language]] for a definition agents can themselves rewrite.
+
+**Process quality:** the factory-floor standard comes from [[Toyota Production System (en.wikipedia.org)]] — [[Invisible agent processes are a factory-floor defect]] runs against it.
 
 **How it runs:** [[Deterministic process, stochastic where needed]], with [[Bounded context]] deciding when a unit becomes its own instance, and an [[LLM gateway]] as the model-access layer.
+
+**Steering:** [[Conversation is the company's control plane]] — humans discuss, assign, and answer in chat while agents do the work.
 
 **Where the work lives:** [[The log is the workspace]], [[Agent identity is a keypair]], [[Branch-as-channel]].
 
