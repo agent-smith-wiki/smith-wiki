@@ -12,3 +12,5 @@ Andy Matuschak's working note, riffing on a passage from Robin Sloan, argues for
 Matuschak frames it as a way to build invested, interesting followings and as a way to avoid the failure mode he calls 'pitching out corrupts within': you are not pitching, you are just showing your work day over day. Maggie Appleton adds that learning in public makes people assume you are more competent.
 
 Relevance: this is the closest established concept to [[Public-First Note-Writing]]. Both publish a working corpus rather than polished outputs, but the motivations differ — Matuschak's is audience, serendipity and honesty about process; Andy Smith's is a structural privacy precondition for an [[Auto-Researcher]].
+
+Smith later returns to it as the frame for his whole publishing stack in [[Social media strategy (andysmith.ai)|Social media strategy]]: the [[Pseudo-public workspace|private chat is written as if public]], the blog runs open, and the auto-researched wiki is public by construction — the garage door is open at every layer, not just at the note corpus.

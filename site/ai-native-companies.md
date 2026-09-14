@@ -18,4 +18,6 @@ Running a company on agents.
 
 **Where the work lives:** [[The log is the workspace]], [[Agent identity is a keypair]], [[Branch-as-channel]].
 
+**Research-first:** [[Products fall out of research]] — the lab ordering, in the tradition of [[Science, the Endless Frontier (carnegiescience.edu)|Science, the Endless Frontier]] and [[Pasteur's quadrant (en.wikipedia.org)|Pasteur's quadrant]].
+
 **Positions:** [[Agents should be team-scoped, not personal]], [[One orchestrator instance can run a whole company]], [[A living runtime compounds work into code]], [[Security is structural, not bolted on]], [[A chat agent is low-value next to one that does the work]], [[Working code beats design docs]], [[An organization is a single pipeline, not a bundle of individuals]], [[Invisible agent processes are a factory-floor defect]], [[PR review and tests break down as the integration path for agent output]], [[Humans set the rules of an organization's evolution]].
