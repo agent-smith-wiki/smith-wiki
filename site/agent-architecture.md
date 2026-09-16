@@ -8,6 +8,8 @@ How agents are built and run.
 
 **The split:** a long-lived [[Agent orchestrator]] holds the secrets and the process and spawns short-lived workers — [[Ephemeral agent]] vs [[Long-lived agent]].
 
+**The harness:** the [[Agent harness]] that runs the model↔tool loop, and the [[Inner and outer harness]] split; [[Agent Client Protocol]] is how a harness is plugged in — see [[Harness choice is a protocol decision, not a rewrite]]. Candidates: [[omp]], [[fx.sh]].
+
 **The boundary:** each agent reaches out only through a [[Per-agent MCP]] whose sole tool is [[Code-mode eval]] against a [[Capability grant]].
 
 **Memory & lifecycle:** [[Per-topic session memory]], [[Two-tier agent memory]], a [[Disposable agent body]], and a [[Self-reaping agent]].
@@ -20,6 +22,6 @@ How agents are built and run.
 
 **Isolation & runtime:** [[Layered agent isolation]] over [[Per-Task Agent Sandboxing]], [[Immutable Agent Environments]], [[MicroVM]] and [[OCI Image]]; see [[Nested virtualization]] and [[Network-bound secrets]]. Related: [[Immutable agent images are worth the rebuild tax]].
 
-**Open questions:** [[How often do agent environment rebuilds become the bottleneck?]], [[Should agent bodies be isolated as microVMs per task or as Kubernetes pods?]], [[Where should an agent's session live so it survives a disposable body?]], [[Should a session be scoped to a topic or to an agent within a topic?]], [[How do you get network-bound secret guarantees on Kubernetes?]], [[When is a unit autonomous enough to become its own instance?]].
+**Open questions:** [[How often do agent environment rebuilds become the bottleneck?]], [[Should agent bodies be isolated as microVMs per task or as Kubernetes pods?]], [[Where should an agent's session live so it survives a disposable body?]], [[Should a session be scoped to a topic or to an agent within a topic?]], [[How do you get network-bound secret guarantees on Kubernetes?]], [[When is a unit autonomous enough to become its own instance?]], [[How much harness does an orchestrator leave to the worker?]].
 
-**Tools:** [[Zeno]], [[Buzz]], [[Microsandbox]].
+**Tools:** [[Zeno]], [[Buzz]], [[Microsandbox]], [[fx.sh]].
