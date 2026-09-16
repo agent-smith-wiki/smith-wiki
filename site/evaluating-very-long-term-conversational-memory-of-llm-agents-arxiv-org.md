@@ -7,6 +7,6 @@ by: "Adyasha Maharana, Dong-Ho Lee, Sergey Tulyakov, Mohit Bansal, Francesco Bar
 tags: ["ai-agents", "memory", "benchmark"]
 ---
 
-The 2024 LoCoMo paper introduces long-horizon dialogues averaging 300 turns and 9,000 tokens over as many as 35 sessions, generated from personas and temporal event graphs and then human-verified. It evaluates question answering, event summarization, and multimodal dialogue generation. The reported experiments find difficulty with long-range temporal and causal relations: long-context models and retrieval-augmented generation help, but remain substantially below human performance.
+The 2024 LoCoMo paper introduces long-horizon dialogues averaging about 305 turns, 19 sessions, and 9,209 tokens, with as many as 35 sessions. It evaluates question answering, event summarization, and multimodal dialogue generation. In its QA experiments, long-context and retrieval-augmented methods improved results by 22–66% but still trailed human performance by 56% overall and by 73% on temporal reasoning.
 
-Relevance: this is direct primary evidence that accepting a long transcript is not equivalent to preserving usable conversational context. It supports testing continuity across sessions and reasoning types rather than testing only isolated fact recall.
+The benchmark is direct evidence that accepting a long transcript is not equivalent to preserving usable conversational context. Its validity is not unlimited: dialogues were generated from personas and temporal event graphs and then human-verified; annotators edited nearly 15% of generated dialogue turns and removed or substituted about 19% of images. It supports testing continuity across sessions and reasoning types while preserving caution about transfer to organic conversations.
