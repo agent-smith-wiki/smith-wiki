@@ -14,6 +14,8 @@ How agents are built and run.
 
 **Memory & lifecycle:** [[Per-topic session memory]], [[Two-tier agent memory]], a [[Disposable agent body]], and a [[Self-reaping agent]].
 
+**Evaluation:** [[Can a public researcher preserve conversation context and link conclusions to verifiable sources?]] connects persistent session design to long-term-memory and citation-support benchmarks.
+
 **Invocation & process:** [[Thread subscription]], the [[Supervised loop]], [[Ask-user]], [[Job dispatch]], and [[Deterministic process, stochastic where needed]].
 
 **Runtime & config:** [[Runtime and config split]], with the pipeline kept [[Idempotent effect via receipt|idempotent by receipt]] and each consumer given [[One done-marker per consumer|its own done-marker]].
